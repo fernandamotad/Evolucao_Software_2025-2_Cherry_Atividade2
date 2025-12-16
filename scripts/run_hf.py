@@ -18,8 +18,10 @@ def build_prompt(template: str, release: str, desc: str, code: str) -> str:
 
 
 def ensure_provider_suffix(model: str) -> str:
+    # Se já vier com :publicai ou :hf-inference, respeita
     if ":" in model:
         return model
+    # Padrão: hf-inference
     return f"{model}:hf-inference"
 
 
@@ -38,8 +40,9 @@ def call_hf_router_chat(model: str, prompt: str, token: str) -> str:
             {
                 "role": "system",
                 "content": (
-                    "Responda exclusivamente em CSV separado por ponto e vírgula. "
-                    "Não escreva explicações, comentários ou tags como <think>. "
+                    "Responda somente com CSV separado por ponto e vírgula. "
+                    "Não use markdown. Não escreva explicações. "
+                    "Não escreva tags como <think>. "
                     "Não repita o cabeçalho."
                 ),
             },
@@ -59,7 +62,10 @@ def call_hf_router_chat(model: str, prompt: str, token: str) -> str:
         raise RuntimeError(f"Erro HF {r.status_code}: {r.text[:800]}")
 
     data = r.json()
-    return data["choices"][0]["message"]["content"]
+    try:
+        return data["choices"][0]["message"]["content"]
+    except Exception:
+        raise RuntimeError(f"Resposta inesperada: {data}")
 
 
 def append_csv(out_path: str, csv_text: str, release: str, desc: str):
@@ -68,35 +74,36 @@ def append_csv(out_path: str, csv_text: str, release: str, desc: str):
     write_header = not os.path.exists(out_path) or os.path.getsize(out_path) == 0
     header = "Release;DescricaoRelease;Categoria;CodeSmell;Justificativa\n"
 
-    valid_lines = []
+    kept_lines = []
     for raw in csv_text.splitlines():
         line = raw.strip()
         if not line:
             continue
-        if line.lower().startswith("release;"):
+        if line.startswith("<think>") or line.startswith("</think>"):
             continue
-        if "<think>" in line.lower():
+        if line.lower().startswith("release;"):
             continue
         if ";" not in line:
             continue
-        valid_lines.append(line)
+        kept_lines.append(line)
 
-    if not valid_lines:
-        valid_lines = [
+    if not kept_lines:
+        kept_lines.append(
             f"{release};{desc};NENHUM;NENHUM;Nenhum code smell identificado"
-        ]
+        )
 
     with open(out_path, "a", encoding="utf-8", newline="") as f:
         if write_header:
             f.write(header)
-        f.write("\n".join(valid_lines) + "\n")
+        if kept_lines:
+            f.write("\n".join(kept_lines) + "\n")
 
 
 def main():
     if len(sys.argv) < 7:
+        print("Uso:")
         print(
-            "Uso: python scripts/run_hf.py <modelo> <release> <descricao> "
-            "<arquivo_codigo> <arquivo_prompt> <saida_csv>"
+            "python scripts/run_hf.py <modelo> <release> <descricao> <arquivo_codigo> <arquivo_prompt> <saida_csv>"
         )
         sys.exit(1)
 
@@ -109,13 +116,14 @@ def main():
 
     token = os.getenv("HF_TOKEN")
     if not token:
-        raise RuntimeError('HF_TOKEN não definido. Use: $env:HF_TOKEN="hf_..."')
+        raise RuntimeError('HF_TOKEN não definido. No PowerShell: $env:HF_TOKEN="hf_..."')
 
     template = load_prompt_template(prompt_path)
 
     with open(code_path, "r", encoding="utf-8", errors="ignore") as f:
         code = f.read()
 
+    # evita prompt gigante e reduz chance de 504 ou resposta cortada
     MAX_CHARS = 25000
     if len(code) > MAX_CHARS:
         code = code[:MAX_CHARS]
