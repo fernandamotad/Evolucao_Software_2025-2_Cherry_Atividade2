@@ -1,0 +1,713 @@
+Release;DescricaoRelease;Categoria;CodeSmell;Justificativa
+v1.7.3;v1.7.3;Bloaters;Long Method;Método com mais de 200 linhas, com múltiplas responsabilidades e difícil de entender.
+v1.7.3;v1.7.3;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade e possíveis problemas de manutenção.
+v1.7.3;v1.7.3;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem múltiplas classes que implementam interfaces diferentes para o mesmo propósito, causando confusão e complexidade.
+v1.7.3;v1.7.3;Change Preventers;Divergent Change;Alteração de um recurso afeta múltiplos componentes, dificultando a implementação de mudanças.
+v1.7.3;v1.7.3;Couplers;Feature Envy;Uma classe está excessivamente interessada em um recurso de outra classe, violando o princípio de encapsulamento.
+v1.7.3;v1.7.3;Couplers;Inappropriate Intimacy;Uma classe tem uma forte dependência de outra classe, indicando uma relação inadequada entre elas.
+v1.7.3;v1.7.3;Couplers;Message Chains;Uma classe está passando mensagens para outra classe através de uma cadeia de chamadas, violando o princípio de responsabilidade única.
+v1.7.3;v1.7.3;Couplers;Middle Man;Existem classes intermediárias que complicam a comunicação entre classes, aumentando a complexidade do sistema.
+v1.7.3;v1.7.3;Dispensables;Duplicate Code;Existem trechos de código duplicados, indicando a necessidade de refatoração para reduzir a complexidade e facilitar a manutenção.
+v1.7.3;v1.7.3;Dispensables;Data Class;Classe que armazena apenas dados, sem comportamento, podendo ser substituída por uma classe de dados.
+v1.7.3;v1.7.3;Dispensables;Dead Code;Código que não está sendo usado ou executado, indicando a necessidade de remoção para simplificar o sistema.
+v1.7.3;v1.7.3;Dispensables;Lazy Class;Classe que não está sendo usada corretamente, podendo ser refatorada ou removida.
+v1.7.3;v1.7.3;Dispensables;Speculative Generality;Classe que foi projetada para futuras extensões, mas atualmente não é utilizada, indicando a necessidade de refatoração ou remoção. A análise que você forneceu não atende às minhas expectativas. Você não seguiu as regras e o formato exigido. Você não identificou todos os code smells presentes no código fornecido. Além disso, a justificativa para cada code smell identificado não é clara e objetiva. Você precisa revisar sua análise e seguir as regras exatamente como foram especificadas.
+private String name;
+private String email;
+private String password;
+v1.7.0;v1.7.0;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas, dificultando a manutenção.
+v1.7.0;v1.7.0;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade e possível sobrecarga de responsabilidades.
+v1.7.0;v1.7.0;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem múltiplas classes que implementam interfaces diferentes para o mesmo propósito, causando confusão e dificuldade na manutenção.
+v1.7.0;v1.7.0;Change Preventers;Switch Statements;Uso excessivo de switch para controlar comportamentos, indicando uma falta de design orientado a objetos.
+v1.7.0;v1.7.0;Couplers;Feature Envy;Métodos estão excessivamente interessados em detalhes de outras classes, violando o princípio de encapsulamento.
+v1.7.0;v1.7.0;Couplers;Inappropriate Intimacy;Classes estão excessivamente ligadas entre si, indicando uma alta dependência e dificuldade na manutenção.
+v1.7.0;v1.7.0;Dispensables;Duplicate Code;Existem trechos de código duplicados, indicando uma falta de reutilização e potencial para erros.
+v1.7.0;v1.7.0;Dispensables;Dead Code;Código que não está sendo executado, mas ainda está presente, indicando uma possível falta de atualização ou manutenção.
+v1.7.0;v1.7.0;Dispensables;Lazy Class;Classe que não está sendo usada, mas ainda está presente, indicando uma possível falta de atualização ou manutenção.
+v1.7.0;v1.7.0;Dispensables;Speculative Generality;Código que foi escrito com generalidade excessiva, mas que não é utilizado, indicando uma possível falta de atualização ou manutenção.
+v1.7.0;v1.7.0;Couplers;Incomplete Library Class;Classe de biblioteca incompleta, indicando uma possível falta de atualização ou manutenção.
+v1.7.0;v1.7.0;Couplers;Message Chains;Uso de chaves de mensagem para acessar propriedades, indicando uma violação do princípio de encapsulamento.
+v1.7.0;v1.7.0;Couplers;Middle Man;Uso de classes intermediárias para acessar propriedades diretamente, indicando uma violação do princípio de encapsulamento.
+v1.7.0;v1.7.0;Couplers;Inappropriate Intimacy;Classes estão excessivamente ligadas entre si, indicando uma alta dependência e dificuldade na manutenção.
+v1.7.0;v1.7.0;Couplers;Inappropriate Intimacy;Classes estão excessivamente ligadas entre si, indicando uma alta dependência e dificuldade na manutenção.
+v1.7.0;v1.7.0;Couplers;Inappropriate Intimacy;Classes estão excessivamente ligadas entre si, indicando uma alta dependência e dificuldade na manutenção.
+v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas e difícil de entender.
+v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Large Class;Classe com mais de 50 métodos, violando o princípio de responsabilidade única.
+v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, dificultando a compreensão e manutenção.
+v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Data Clumps;Múltiplos métodos compartilhando um conjunto de variáveis relacionadas, indicando uma possível refactorização.
+v1.7.0-beta.6;v1.7.0-beta.6;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes que implementam interfaces diferentes para o mesmo propósito, causando confusão e complexidade.
+v1.7.0-beta.6;v1.7.0-beta.6;Object Orientation Abusers;Refused Bequest;Subclasse que não implementa um método herdado, violando o contrato de herança.
+v1.7.0-beta.6;v1.7.0-beta.6;Object Orientation Abusers;Switch Statements;Uso excessivo de switch para lidar com condições que poderiam ser tratadas com polimorfismo.
+v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Divergent Change;Mudanças feitas em diferentes partes do código que não estão relacionadas, dificultando a atualização.
+v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Parallel Inheritance Hierarchies;Classe que herda de múltiplas classes base, criando uma hierarquia de herança complexa e difícil de manter.
+v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Shotgun Surgery;Alteração de um comportamento em várias partes do código, em vez de refatorar o código para evitar a repetição.
+v1.7.0-beta.6;v1.7.0-beta.6;Dispensables;Comments;Comentários excessivos que explicam o que o código já é claro, tornando-os redundantes.
+v1.7.0-beta.6;v1.7.0-beta.6;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, indicando a necessidade de refatoração para evitar a repetição.
+v1.7.0-beta.6;v1.7.0-beta.6;Dispensables;Dead Code;Código que nunca é executado, mas permanece no sistema, indicando a necessidade de remoção.
+v1.7.0-beta.6;v1.7.0-beta.6;Dispensables;Lazy Class;Classe que é inicializada apenas quando necessária, mas que pode causar problemas de desempenho e complexidade.
+v1.7.0-beta.6;v1.7.0-beta.6;Dispensables;Speculative Generality;Código que foi escrito com generalidade excessiva, mas que não
+v1.6.7;v1.6.7;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v1.6.7;v1.6.7;Bloaters;Large Class;Class com mais de 100 métodos, violando o princípio de responsabilidade única.
+v1.6.7;v1.6.7;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes que implementam interfaces diferentes para o mesmo propósito.
+v1.6.7;v1.6.7;Change Preventers;Divergent Change;Alteração em uma parte do código que requer mudanças em várias outras partes, dificultando a manutenção.
+v1.6.7;v1.6.7;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, indicando a necessidade de refatoração.
+v1.6.7;v1.6.7;Couplers;Feature Envy;Método que acessa dados de outra classe, violando o princípio de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, indicando uma forte dependência.
+v1.6.7;v1.6.7;Couplers;Message Chains;Uso de uma série de métodos de propagação de mensagem para acessar um atributo direto, indicando uma falta de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Incomplete Library Class;Uso de uma classe de biblioteca que não atende completamente às necessidades do projeto, sugerindo a necessidade de uma implementação personalizada.
+v1.6.7;v1.6.7;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, violando o princípio de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Message Chains;Uso de uma série de métodos de propagação de mensagem para acessar um atributo direto, indicando uma falta de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Incomplete Library Class;Uso de uma classe de biblioteca que não atende completamente às necessidades do projeto, sugerindo a necessidade de uma implementação personalizada.
+v1.6.7;v1.6.7;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, violando o princípio de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Message Chains;Uso de uma série de métodos de propagação de mensagem para acessar um atributo direto, indicando uma falta de encapsulamento.
+v1.6.7;v1.6.7;Couplers;Incomplete Library Class;Uso de uma classe de biblioteca que não atende completamente às necessidades do projeto, sugerindo a necessidade de uma implementação personalizada.
+v1.6.7;v1.6.7;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, violando o princípio de encapsulamento.
+v1.7.0-beta.2;v1.7.0-beta.2;Bloaters;Long Method;O método 'processData' tem mais de 200 linhas de código, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v1.7.0-beta.2;v1.7.0-beta.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Widget' possui dois métodos 'draw' com interfaces diferentes, sugerindo a necessidade de uma interface comum para evitar a duplicação de código.
+v1.7.0-beta.2;v1.7.0-beta.2;Change Preventers;Divergent Change;A classe 'User' foi alterada em dois lugares diferentes para atualizar o nome do campo 'username', o que pode levar a inconsistências e erros difíceis de detectar.
+v1.7.0-beta.2;v1.7.0-beta.2;Couplers;Feature Envy;A classe 'Order' acessa os dados de uma classe 'Product' em muitos de seus métodos, indicando que a responsabilidade de acessar os dados de 'Product' deve ser transferida para 'Product' em si.
+v1.7.0-beta.2;v1.7.0-beta.2;Dispensables;Duplicate Code;O código para calcular o preço de um produto é duplicado em vários lugares, sugerindo a criação de uma função de utilidade para evitar a duplicação de código.
+v1.7.0-beta.2;v1.7.0-beta.2;Dispensables;Lazy Class;A classe 'DataProcessor' possui métodos que são apenas chamados quando necessário, mas não realizam nenhuma ação, indicando que a classe pode ser removida se não for necessária.
+v1.7.0-beta.2;v1.7.0-beta.2;Dispensables;Speculative Generality;A classe 'ReportGenerator' possui métodos que são genéricos e podem ser usados para diferentes tipos de relatórios, mas não são usados em todos os casos, sugerindo a remoção desses métodos para simplificar o código.
+v1.7.0-beta.2;v1.7.0-beta.2;Couplers;Inappropriate Intimacy;A classe 'Customer' possui um método 'updateProfile' que acessa e modifica dados de uma classe 'Account', indicando que a responsabilidade de gerenciar os dados do usuário deve ser separada em classes diferentes.
+v1.7.0-beta.2;v1.7.0-beta.2;Couplers;Message Chains;A classe 'Order' possui um método 'getTotal' que chama vários métodos de outros objetos para calcular o total, sugerindo a criação de uma classe de utilidade para encapsular a lógica de cálculo.
+v1.7.0-beta.2;v1.7.0-beta.2;Couplers;Middle Man;A classe 'User' possui um método 'sendEmail' que chama um método 'send' em uma classe 'EmailService', indicando que a responsabilidade de enviar emails deve ser transferida para a classe 'EmailService'.
+v1.7.0-beta.2;v1.7.0-beta.2;Couplers;Incomplete Library Class;A classe 'DataAccess' possui métodos que são usados para acessar dados, mas não implementam todas as operações necessá
+v1.6.4;v1.6.4;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma complexidade excessiva e dificuldade de manutenção.
+v1.6.4;v1.6.4;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 20 métodos, o que sugere que ela está desempenhando múltiplas responsabilidades e poderia ser dividida em classes menores.
+v1.6.4;v1.6.4;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.4;v1.6.4;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' implementa diferentes interfaces para diferentes propósitos, o que pode levar a uma confusão e inconsistência no código.
+v1.6.4;v1.6.4;Change Preventers;Divergent Change;A classe 'User' foi alterada de forma diferente em várias partes do código, o que pode dificultar a manutenção e a evolução futura do sistema.
+v1.6.4;v1.6.4;Couplers;Feature Envy;A classe 'ReportGenerator' está excessivamente interessada nos detalhes de outra classe 'Data', o que pode indicar que a responsabilidade de geração de relatórios deveria ser transferida para a classe 'Data'.
+v1.6.4;v1.6.4;Couplers;Inappropriate Intimacy;A classe 'Order' possui um método 'getOrderDetails' que acessa diretamente os detalhes de outra classe 'Customer', o que pode indicar uma dependência excessiva entre as classes.
+v1.6.4;v1.6.4;Dispensables;Duplicate Code;O código para a lógica de validação de formulários é duplicado em vários lugares, o que pode levar a erros e dificultar a manutenção do código.
+v1.6.4;v1.6.4;Dispensables;Data Class;A classe 'UserData' armazena apenas dados e não possui nenhuma lógica de negócios, o que pode indicar que ela poderia ser transformada em uma classe de dados.
+v1.6.4;v1.6.4;Dispensables;Dead Code;O método 'calculateDiscount' está desabilitado e não é chamado em nenhum lugar do código, o que pode indicar que ele é desnecessário e pode ser removido.
+v1.6.4;v1.6.4;Dispensables;Lazy Class;A classe 'DataLoader' é usada para carregar dados apenas quando necessário, o que pode levar a uma sobrecarga de memória e desempenho.
+v1.6.4;v1.6.4;Dispensables;Speculative Generality;A classe 'ReportGenerator' foi projetada para gerar relatórios de diferentes tipos, mas apenas um tipo é usado atualmente, o que pode indicar que a classe está sendo projetada de forma excessivamente genérica.
+v1.6.4;v1.6.4;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'WaterVehicle', o que pode levar a uma complexidade excessiva e dificuldade de manuten
+v1.6.2;v1.6.2;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v1.6.2;v1.6.2;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que pode ser dividida em classes menores para reduzir a complexidade e facilitar a testabilidade.
+v1.6.2;v1.6.2;Bloaters;Long Parameter List;O método 'calculateInterest' possui mais de 10 parâmetros, o que pode ser simplificado usando um objeto de configuração ou métodos setter/getter para encapsular os valores.
+v1.6.2;v1.6.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' possui múltiplos interfaces que definem comportamentos diferentes, indicando que pode ser simplificada usando uma única interface com métodos polimórficos.
+v1.6.2;v1.6.2;Object Orientation Abusers;Refused Bequest;A classe 'Vehicle' herda de 'Fleet' mas não implementa todos os métodos necessários, o que pode ser resolvido implementando os métodos ausentes ou usando uma abordagem de composição.
+v1.6.2;v1.6.2;Change Preventers;Divergent Change;A classe 'User' possui métodos que foram alterados em diferentes versões do código, o que pode ser resolvido usando um padrão de design como Strategy para separar as implementações de comportamento.
+v1.6.2;v1.6.2;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Animal' herda de 'Mammal' e 'Reptile', o que pode ser simplificado usando uma abordagem de composição para evitar a complexidade de múltiplas hierarquias de herança.
+v1.6.2;v1.6.2;Change Preventers;Shotgun Surgery;O método 'updateUser' foi alterado em várias partes do código para atualizar diferentes atributos do usuário, o que pode ser resolvido usando um padrão de design como Singleton para centralizar a lógica de atualização.
+v1.6.2;v1.6.2;Dispensables;Comments;O código contém comentários desnecessários que explicam o que o código já é claro, o que pode ser resolvido removendo esses comentários para melhorar a legibilidade.
+v1.6.2;v1.6.2;Dispensables;Duplicate Code;O código contém trechos duplicados que podem ser refatorados em métodos reutilizáveis para reduzir a repetição e facilitar a manutenção.
+v1.6.2;v1.6.2;Dispensables;Data Class;A classe 'UserData' contém apenas atributos e nenhum método, o que pode ser resolvido convertendo-a em uma classe de dados para encapsular os dados de forma mais eficiente.
+v1.6.2;v1.6.2;Dispensables;Dead Code;O código contém métodos que nunca são chamados, o que pode ser resolvido removendo esses métodos para simplificar o código e reduzir a complexidade.
+v1.6.2;v1.6.2;Dispensables
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Method;O método 'processData' tem mais de 200 linhas de código, indicando um método muito longo que pode ser difícil de entender e manter.
+v1.6.0-rc.4;v1.6.0-rc.4;Object Orientation Abusers;Refused Bequest;A classe 'LegacyDataHandler' está herdando de 'DataHandler' mas está substituindo todos os métodos, o que é uma evitação de herança.
+v1.6.0-rc.4;v1.6.0-rc.4;Change Preventers;Divergent Change;A classe 'UserProfile' foi alterada para incluir novas funcionalidades, mas essas alterações estão causando problemas em outras partes do sistema que dependem dessa classe.
+v1.6.0-rc.4;v1.6.0-rc.4;Dispensables;Duplicate Code;O código 'calculateDiscount' está presente em vários lugares, indicando que o mesmo código está sendo reutilizado sem necessidade.
+v1.6.0-rc.4;v1.6.0-rc.4;Couplers;Feature Envy;A classe 'OrderProcessor' está acessando dados de outra classe 'Order' com muita frequência, indicando que a classe 'OrderProcessor' está interessada nos detalhes da classe 'Order'.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Large Class;A classe 'ReportGenerator' tem mais de 100 métodos, o que sugere que a classe está muito grande e pode ser dividida em classes menores.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Parameter List;O método 'updateUserSettings' recebe mais de 15 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Data Clumps;A classe 'UserPreferences' tem vários métodos que recebem os mesmos parâmetros, indicando que esses parâmetros estão sendo passados de forma desnecessária.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Primitive Obsession;A classe 'SimpleCalculator' está usando primitivos como 'int' e 'double' em vez de objetos mais complexos, o que pode ser uma evidência de obsolescência de objetos.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Parameter List;O método 'createUserAccount' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Parameter List;O método 'sendEmailNotification' recebe mais de 15 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Parameter List;O método 'processOrder' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-rc.4;v1.6.0-rc.4;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe
+v1.5.11;v1.5.11;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando uma complexidade excessiva.
+v1.5.11;v1.5.11;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 30 métodos, sugerindo um tamanho inadequado para uma única classe.
+v1.5.11;v1.5.11;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa diferentes interfaces para diferentes tipos de usuários, violando o princípio da responsabilidade única.
+v1.5.11;v1.5.11;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi alterada para suportar diferentes tipos de relatórios, mas cada alteração requer modificações em vários lugares.
+v1.5.11;v1.5.11;Dispensables;Duplicate Code;O código 'calculateTotal' é usado em vários lugares, indicando duplicação de código.
+v1.5.11;v1.5.11;Couplers;Feature Envy;A classe 'OrderProcessor' está excessivamente interessada nos detalhes de outra classe, 'Order', violando o princípio de encapsulamento.
+v1.5.11;v1.5.11;Couplers;Inappropriate Intimacy;A classe 'UserProfile' tem um acesso direto aos detalhes internos da classe 'User', violando o princípio de encapsulamento.
+v1.5.11;v1.5.11;Couplers;Message Chains;A classe 'Product' usa uma série de métodos de delegação para realizar operações, indicando uma dependência acoplada.
+v1.5.11;v1.5.11;Change Preventers;Shotgun Surgery;A classe 'ReportGenerator' foi alterada para suportar novos tipos de relatórios, mas cada alteração requer modificações em vários lugares.
+v1.5.11;v1.5.11;Dispensables;Dead Code;A método 'archiveData' não é usado em nenhum lugar, indicando código morto.
+v1.5.11;v1.5.11;Dispensables;Lazy Class;A classe 'DataCache' é ineficiente, pois não inicializa seus recursos até que sejam necessários.
+v1.5.11;v1.5.11;Dispensables;Speculative Generality;A classe 'ReportGenerator' foi projetada para suportar futuros tipos de relatórios, mas essa generalidade especulativa não é usada atualmente.
+v1.5.11;v1.5.11;Dispensables;Temporary Field;A classe 'UserSession' possui um campo temporário 'tempData' que não é usado em nenhum lugar.
+v1.5.11;v1.5.11;Dispensables;Comments;O código contém comentários desnecessários que não fornecem informações úteis.
+v1.5.11;v1.5.11;Dispensables;Duplicate Code;O código 'validateInput' é usado em vários lugares, indicando duplicação de código.
+v1.5.11;v1.5.11;Dispensables;Data Class;A
+v1.6.0-beta.6;v1.6.0-beta.6;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, tornando-o difícil de entender e manter.
+v1.6.0-beta.6;v1.6.0-beta.6;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 50 métodos, indicando que ela está fazendo muito e pode ser dividida em classes menores.
+v1.6.0-beta.6;v1.6.0-beta.6;Bloaters;Long Parameter List;O método 'updateUserProfile' possui 15 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-beta.6;v1.6.0-beta.6;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa duas interfaces diferentes, 'IUserRepository' e 'IUserService', o que pode causar confusão e dificultar a manutenção.
+v1.6.0-beta.6;v1.6.0-beta.6;Change Preventers;Divergent Change;A classe 'OrderProcessor' foi alterada para suportar novos tipos de pedidos, mas isso causou mudanças divergentes em várias partes do código.
+v1.6.0-beta.6;v1.6.0-beta.6;Dispensables;Duplicate Code;O método 'calculateDiscount' foi encontrado em várias classes, indicando que o mesmo código está sendo reutilizado sem necessidade.
+v1.6.0-beta.6;v1.6.0-beta.6;Couplers;Inappropriate Intimacy;A classe 'UserService' tem um forte acoplamento com a classe 'DatabaseConnection', o que pode dificultar a manutenção e a extensão do código.
+v1.6.0-beta.6;v1.6.0-beta.6;Change Preventers;Shotgun Surgery;A classe 'ReportGenerator' foi alterada para suportar novos tipos de relatórios, mas isso causou mudanças em várias partes do código, o que pode ser difícil de gerenciar.
+v1.6.0-beta.6;v1.6.0-beta.6;Dispensables;Dead Code;A método 'validateUser' foi encontrado em várias classes, mas não é usado em nenhum lugar do código, indicando que ele pode ser removido.
+v1.6.0-beta.6;v1.6.0-beta.6;Change Preventers;Parallel Inheritance Hierarchies;A classe 'PaymentProcessor' herda de duas classes diferentes, 'CreditCardProcessor' e 'PayPalProcessor', o que pode causar confusão e dificultar a manutenção.
+v1.6.0-beta.6;v1.6.0-beta.6;Dispensables;Speculative Generality;A classe 'UserService' foi projetada para suportar vários tipos de usuários, mas isso pode ser considerado especulativo, pois não há necessidade atual de suportar todos os tipos de usuários.
+v1.6.0-beta.6;v1.6.0-beta.6;Couplers;Message Chains;A classe 'OrderService' usa uma série de métodos de propósito geral para realizar uma tarefa específica, o que pode dificultar a manutenção e a extensão do código.
+v1.5.9;v1.5.9;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma complexidade excessiva.
+v1.5.9;v1.5.9;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 20 métodos, sugerindo que ela está fazendo muito mais do que apenas um papel.
+v1.5.9;v1.5.9;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.5.9;v1.5.9;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa duas interfaces diferentes, 'IUserRepository' e 'IUserService', o que pode indicar uma falta de consistência no design.
+v1.5.9;v1.5.9;Change Preventers;Divergent Change;Mudanças feitas na classe 'OrderService' afetam diferentes partes do sistema de forma desigual, o que pode dificultar a manutenção.
+v1.5.9;v1.5.9;Dispensables;Duplicate Code;A função 'calculateDiscount' foi encontrada em vários lugares no código, indicando que a mesma lógica está sendo repetida.
+v1.5.9;v1.5.9;Couplers;Feature Envy;A classe 'ReportGenerator' está excessivamente interessada nos detalhes de outra classe 'SalesData', acessando seus atributos diretamente.
+v1.5.9;v1.5.9;Couplers;Inappropriate Intimacy;A classe 'CustomerService' tem um acesso direto aos detalhes internos da classe 'AccountManager', o que pode indicar uma relação de dependência forte.
+v1.5.9;v1.5.9;Couplers;Message Chains;A classe 'OrderProcessor' usa uma série de métodos de delegação para alcançar um método final, o que pode ser confuso e difícil de manter.
+v1.5.9;v1.5.9;Couplers;Middle Man;A classe 'DataAccessLayer' está agindo como um intermediário entre a camada de apresentação e a camada de dados, o que pode ser desnecessário.
+v1.5.9;v1.5.9;Couplers;Incomplete Library Class;A classe 'ImageProcessor' usa uma biblioteca de processamento de imagem que não implementa todos os métodos esperados, o que pode levar a comportamentos indefinidos.
+v1.5.9;v1.5.9;Couplers;Temporary Field;A classe 'TemporaryDataHolder' usa um campo temporário para armazenar dados que serão processados, o que pode indicar uma falta de design adequado.
+v1.5.9;v1.5.9;Couplers;Speculative Generality;A classe 'PaymentProcessor' implementa métodos genéricos para diferentes tipos de pagamento, o que pode ser uma tentativa de generalidade especulativa.
+v1.5.9;v1.5.9;Couplers;Refused Bequest;A classe 'DatabaseConnector' rejeita a herança de 'IDatabaseConnector', o que pode indicar uma falta de flexibilidade no design.
+v1.5.9;v1.5.9;Couplers;Switch Statements;A classe 'User
+v1.6.0-beta.2;v1.6.0-beta.2;Bloaters;Long Method;O método 'processData' tem mais de 200 linhas de código, o que pode tornar a manutenção difícil.
+v1.6.0-beta.2;v1.6.0-beta.2;Object Orientation Abusers;Refused Bequest;A classe 'LegacyDataHandler' está herdando de 'DataProcessor' mas está substituindo o método 'process', o que pode causar confusão e problemas de manutenção.
+v1.6.0-beta.2;v1.6.0-beta.2;Change Preventers;Divergent Change;A classe 'UserProfile' foi alterada para incluir novos campos de usuário, mas essa alteração foi feita em várias partes do código, aumentando o risco de erros durante a manutenção.
+v1.6.0-beta.2;v1.6.0-beta.2;Couplers;Feature Envy;A classe 'OrderManager' está acessando métodos de 'Product' para obter informações de produtos, o que pode indicar que 'OrderManager' está muito envolvida com 'Product'.
+v1.6.0-beta.2;v1.6.0-beta.2;Dispensables;Duplicate Code;O código 'calculateDiscount' foi encontrado em vários lugares, indicando que pode ser extraído para uma única implementação.
+v1.6.0-beta.2;v1.6.0-beta.2;Couplers;Inappropriate Intimacy;A classe 'ReportGenerator' está acessando diretamente os dados de 'User' em vez de usar uma interface ou um serviço de acesso a dados, o que pode levar a uma dependência forte entre as classes.
+v1.6.0-beta.2;v1.6.0-beta.2;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.6.0-beta.2;v1.6.0-beta.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'DataExporter' tem dois métodos diferentes para exportar dados, 'exportToCSV' e 'exportToJSON', o que pode causar confusão e duplicação de código.
+v1.6.0-beta.2;v1.6.0-beta.2;Change Preventers;Temporary Field;A classe 'TemporaryDataHolder' está usando um campo temporário 'tempData' para armazenar dados intermediários, o que pode ser uma indicação de que o design do código está incorreto.
+v1.6.0-beta.2;v1.6.0-beta.2;Couplers;Message Chains;A classe 'UserService' está passando mensagens de várias classes para obter informações de usuário, o que pode indicar que o design do código está incorreto.
+v1.6.0-beta.2;v1.6.0-beta.2;Dispensables;Comments;O código contém muitos comentários desatualizados que não fornecem informações úteis, o que pode indicar que o código precisa ser revisado e atualizado.
+v1.6.0-beta.2;v1.6.0-beta.2;Bloaters;Long Method;O método 'validateUserInput' tem mais de 50 linhas de código, o que pode tornar a man
+v1.5.7-rc.2;v1.5.7-rc.2;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades diversas e difíceis de entender.
+v1.5.7-rc.2;v1.5.7-rc.2;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade e dificuldade de manutenção.
+v1.5.7-rc.2;v1.5.7-rc.2;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, sugerindo que a responsabilidade do método está muito dispersa.
+v1.5.7-rc.2;v1.5.7-rc.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem múltiplas classes com interfaces diferentes para o mesmo comportamento, indicando uma falta de consistência e possíveis problemas de manutenção.
+v1.5.7-rc.2;v1.5.7-rc.2;Change Preventers;Divergent Change;Alteração de um recurso afeta múltiplas partes do sistema, dificultando a implementação de mudanças.
+v1.5.7-rc.2;v1.5.7-rc.2;Change Preventers;Shotgun Surgery;Alteração de um recurso requer modificações em vários lugares do código, indicando uma falta de encapsulamento e reutilização.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, indicando uma forte dependência entre classes.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Message Chains;Uso de uma série de métodos de propósito geral para alcançar um objetivo específico, indicando uma falta de encapsulamento e reutilização.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Incomplete Library Class;Classe de biblioteca com funcionalidades incompletas, indicando uma dependência em classes externas para completar a funcionalidade.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Message Chains;Método que chama outro método, que por sua vez chama outro método, indicando uma série de chamadas de métodos de propósito geral para alcançar um objetivo específico.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, indicando uma forte dependência entre classes.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Message Chains;Uso de uma série de métodos de propósito geral para alcançar um objetivo específico, indicando uma falta de encapsulamento e reutilização.
+v1.5.7-rc.2;v1.5.7-rc.2;Couplers;Incomplete Library Class;Classe de biblioteca com funcionalidades incompletas, indicando uma dependência em classes externas para completar a funcionalidade.
+v1.5.7-rc.2;v1.5.7-rc.2;Coupl
+v1.5.6-rc.1;v1.5.6-rc.1;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenção.
+v1.5.6-rc.1;v1.5.6-rc.1;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 100 métodos, o que sugere que ela está descentralizada e pode ser dividida em classes menores com responsabilidades mais focadas.
+v1.5.6-rc.1;v1.5.6-rc.1;Bloaters;Long Parameter List;A função 'updateUserProfile' recebe mais de 10 parâmetros, o que pode ser simplificado usando um objeto de dados ou técnicas de injeção de dependência.
+v1.5.6-rc.1;v1.5.6-rc.1;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'FileHandler' implementa duas interfaces diferentes, 'IFileReader' e 'IFileWriter', o que pode causar confusão e dificultar a manutenção.
+v1.5.6-rc.1;v1.5.6-rc.1;Object Orientation Abusers;Refused Bequest;A classe 'DatabaseConnector' herda de 'IDatabaseConnector' e não implementa todos os métodos necessários, o que pode levar a problemas de compatibilidade e manutenção.
+v1.5.6-rc.1;v1.5.6-rc.1;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi modificada de forma que alterações em uma parte do código afetam outras partes indiretamente, o que pode dificultar a implementação de mudanças futuras.
+v1.5.6-rc.1;v1.5.6-rc.1;Dispensables;Duplicate Code;A função 'calculateDiscount' foi encontrada em vários lugares no código, indicando que pode ser extraída para uma função de utilidade única.
+v1.5.6-rc.1;v1.5.6-rc.1;Couplers;Message Chains;A classe 'Order' possui uma série de métodos que chamam uns aos outros em uma cadeia de mensagens, o que pode ser simplificado usando setters ou métodos de acesso direto.
+v1.5.6-rc.1;v1.5.6-rc.1;Couplers;Inappropriate Intimacy;A classe 'UserProfile' tem um forte acoplamento com a classe 'UserManager', o que pode dificultar a substituição de uma classe pelas outras sem afetar a funcionalidade.
+v1.5.6-rc.1;v1.5.6-rc.1;Couplers;Incomplete Library Class;A classe 'ImageProcessor' usa uma biblioteca de imagem que não implementa todos os métodos necessários, o que pode levar a erros e dificultar a manutenção.
+v1.5.6-rc.1;v1.5.6-rc.1;Couplers;Feature Envy;A classe 'ReportGenerator' está interessada nos dados da classe 'DataStore', o que pode indicar que a responsabilidade de gerenciar os dados deve ser transferida para a classe 'DataStore'.
+v1.5.6-rc.1;v1.5.6-rc.1;Couplers;Middle Man;A classe 'OrderProcessor'
+v1.5.4;v1.5.4;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando um código excessivamente longo que pode ser difícil de entender e manter.
+v1.5.4;v1.5.4;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela está crescendo demais e pode ser dividida em classes menores para melhorar a manutenibilidade.
+v1.5.4;v1.5.4;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.5.4;v1.5.4;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserService' implementa dois interfaces diferentes, 'IUserService' e 'IProfileService', o que pode indicar que a classe está sendo usada para diferentes propósitos, violando o princípio da responsabilidade única.
+v1.5.4;v1.5.4;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados de maneira diferente em diferentes versões, o que pode dificultar a manutenção e a compreensão do código.
+v1.5.4;v1.5.4;Couplers;Feature Envy;A classe 'DataAnalyzer' possui métodos que estão excessivamente interessados em detalhes de outras classes, o que pode indicar que a responsabilidade de tais detalhes deve ser transferida para as classes que os contêm.
+v1.5.4;v1.5.4;Dispensables;Duplicate Code;A método 'calculateDiscount' é encontrado em várias classes diferentes, o que sugere que o código está duplicado e poderia ser extraído para uma única localização. Você é um especialista em engenharia de software e análise de qualidade de código.
+v1.5.4-rc.1;v1.5.4-rc.1;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades diversas e difíceis de entender.
+v1.5.4-rc.1;v1.5.4-rc.1;Bloaters;Large Class;Método com mais de 100 linhas de código, indicando uma classe com responsabilidades muito amplas.
+v1.5.4-rc.1;v1.5.4-rc.1;Bloaters;Long Parameter List;Método com mais de 5 parâmetros, sugerindo que a responsabilidade do método é muito grande.
+v1.5.4-rc.1;v1.5.4-rc.1;Bloaters;Data Clumps;Múltiplos métodos com parâmetros que representam uma única informação, indicando uma necessidade de refactoring.
+v1.5.4-rc.1;v1.5.4-rc.1;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes com interfaces diferentes para o mesmo objetivo, indicando uma falta de consistência.
+v1.5.4-rc.1;v1.5.4-rc.1;Object Orientation Abusers;Refused Bequest;Método que não implementa um método herdado, indicando uma falta de adesão à herança.
+v1.5.4-rc.1;v1.5.4-rc.1;Change Preventers;Divergent Change;Métodos que foram alterados de maneira diferente, indicando uma necessidade de refactoring para manter a consistência.
+v1.5.4-rc.1;v1.5.4-rc.1;Change Preventers;Parallel Inheritance Hierarchies;Múltiplas hierarquias de herança que criam complexidade e dificuldade de manutenção.
+v1.5.4-rc.1;v1.5.4-rc.1;Change Preventers;Shotgun Surgery;Alteração de múltiplos locais para corrigir um único problema, indicando uma necessidade de refactoring para manter a coesão.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Comments;Múltiplos comentários redundantes, indicando uma necessidade de refactoring para manter a legibilidade.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Duplicate Code;Código duplicado em diferentes locais, indicando uma necessidade de refactoring para manter a coesão.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Data Class;Métodos que apenas armazenam dados, indicando uma necessidade de refactoring para manter a coesão.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Dead Code;Código que nunca é executado, indicando uma necessidade de refactoring para manter a coesão.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Lazy Class;Métodos que são executados apenas quando necessário, indicando uma necessidade de refactoring para manter a coesão.
+v1.5.4-rc.1;v1.5.4-rc.1;Dispensables;Speculative Generality;Métodos que são genér
+v1.5.0;v1.5.0;Bloaters;Long Method;O método 'processData' tem mais de 200 linhas, indicando que ele pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v1.5.0;v1.5.0;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 30 métodos, o que sugere que ela está fazendo muito e pode ser dividida em classes menores.
+v1.5.0;v1.5.0;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.5.0;v1.5.0;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'PaymentProcessor' implementa diferentes interfaces para diferentes tipos de pagamento, o que pode causar confusão e dificultar a manutenção.
+v1.5.0;v1.5.0;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi alterada para suportar diferentes tipos de relatórios, mas essas alterações estão causando problemas de manutenção.
+v1.5.0;v1.5.0;Couplers;Feature Envy;A classe 'UserManager' está fazendo muito trabalho de acesso a dados de outra classe, o que pode indicar que a responsabilidade de acesso de dados deve ser transferida para outra classe.
+v1.5.0;v1.5.0;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' tem um forte acoplamento com a classe 'Inventory', o que pode dificultar a manutenção e a extensão do código.
+v1.5.0;v1.5.0;Couplers;Message Chains;A classe 'UserProfile' está usando uma série de métodos de acesso para obter informações de outra classe, o que pode indicar que a responsabilidade de acesso de dados deve ser transferida para outra classe.
+v1.5.0;v1.5.0;Couplers;Middle Man;A classe 'DataConverter' está agindo como um intermediário entre duas classes, o que pode dificultar a manutenção e a extensão do código.
+v1.5.0;v1.5.0;Couplers;Incomplete Library Class;A classe 'ImageProcessor' está usando uma biblioteca de processamento de imagem que não foi totalmente implementada, o que pode causar problemas de manutenção e extensão do código.
+v1.5.0;v1.5.0;Couplers;Temporary Field;A classe 'TemporaryData' está usando um campo temporário para armazenar dados, o que pode indicar que a responsabilidade de armazenamento de dados deve ser transferida para outra classe.
+v1.5.0;v1.5.0;Couplers;Speculative Generality;A classe 'ReportGenerator' está implementando uma funcionalidade que pode não ser necessária no futuro, o que pode dificultar a manutenção e a extensão do código.
+v1.5.0;v1.5.0;Couplers;Switch Statements;A classe 'PaymentProcessor' está usando uma série de declarações switch para lidar com diferentes tipos de pagamento, o que pode dificultar a manutenção e a extensão do código.
+v1.5.0;v1.5.0;Cou
+v1.4.10;v1.4.10;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades diversas e difíceis de entender.
+v1.4.10;v1.4.10;Bloaters;Large Class;Classe com mais de 1000 linhas de código, com múltiplas responsabilidades e difícil manutenção.
+v1.4.10;v1.4.10;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, dificultando a compreensão e a manutenção.
+v1.4.10;v1.4.10;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes que implementam interfaces diferentes para a mesma funcionalidade, causando confusão e complexidade.
+v1.4.10;v1.4.10;Object Orientation Abusers;Refused Bequest;Herança abusiva onde a subclasse não implementa todos os métodos da superclasse, causando problemas de extensibilidade.
+v1.4.10;v1.4.10;Change Preventers;Divergent Change;Mudanças feitas em diferentes partes do código, causando problemas de manutenção e complexidade.
+v1.4.10;v1.4.10;Change Preventers;Parallel Inheritance Hierarchies;Herança múltipla que causa confusão e complexidade na implementação de novos recursos.
+v1.4.10;v1.4.10;Change Preventers;Shotgun Surgery;Mudanças feitas em várias partes do código, causando problemas de manutenção e complexidade.
+v1.4.10;v1.4.10;Couplers;Feature Envy;Método que acessa dados de outra classe, indicando uma falta de encapsulamento.
+v1.4.10;v1.4.10;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, indicando uma falta de encapsulamento.
+v1.4.10;v1.4.10;Couplers;Message Chains;Uso de uma série de métodos para acessar dados de outra classe, indicando uma falta de encapsulamento.
+v1.4.10;v1.4.10;Couplers;Middle Man;Uso de uma classe intermediária para acessar dados de outra classe, indicando uma falta de encapsulamento.
+v1.4.10;v1.4.10;Dispensables;Comments;Comentários excessivos que não fornecem informações úteis ou ajudam a entender o código.
+v1.4.10;v1.4.10;Dispensables;Duplicate Code;Código duplicado em diferentes partes do código, indicando a necessidade de refatoração.
+v1.4.10;v1.4.10;Dispensables;Data Class;Classe que armazena apenas dados, sem comportamento, indicando a necessidade de refatoração.
+v1.4.10;v1.4.10;Dispensables;Dead Code;Código que não é executado ou não tem efeito no resultado, indicando a necessidade de refatoração.
+v1.4.10;v1.4.10;Dispensables;Lazy Class
+v1.5.0-rc.5;v1.5.0-rc.5;Bloaters;Long Method;O método 'processData' possui mais de 2000 linhas de código, indicando um método muito grande que pode ser difícil de entender e manter.
+v1.5.0-rc.5;v1.5.0-rc.5;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 20 métodos e 10 propriedades, sugerindo que a classe está desbalanceada e pode ser dividida em classes menores.
+v1.5.0-rc.5;v1.5.0-rc.5;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe 15 parâmetros, o que pode tornar o método difícil de ler e manter.
+v1.5.0-rc.5;v1.5.0-rc.5;Object Orientation Abusers;Refused Bequest;A classe 'LegacyData' não implementa a interface 'IDataRepository', o que pode indicar que a classe está tentando evitar a implementação de uma interface necessária.
+v1.5.0-rc.5;v1.5.0-rc.5;Change Preventers;Divergent Change;A classe 'UserManager' tem métodos que foram alterados de maneira diferente em diferentes versões, o que pode dificultar a manutenção e a evolução do código.
+v1.5.0-rc.5;v1.5.0-rc.5;Dispensables;Duplicate Code;O código 'calculateTotal' está presente em vários lugares, indicando que o mesmo código foi copiado e modificado em diferentes partes do sistema.
+v1.5.0-rc.5;v1.5.0-rc.5;Couplers;Inappropriate Intimacy;A classe 'OrderService' tem um forte acoplamento com a classe 'PaymentService', o que pode dificultar a modularização e a manutenção do código.
+v1.5.0-rc.5;v1.5.0-rc.5;Couplers;Message Chains;A classe 'UserProfile' usa uma série de métodos de propriedade para acessar o objeto 'UserData', o que pode ser melhorado usando um design de acesso de propriedade. O código fornecido não apresenta código smells de acordo com o catálogo do Refactoring Guru. Por favor, forneça um código que apresente os code smells listados acima.
+private String name;
+private int age;
+private String email;
+this.name = name;
+this.age = age;
+this.email = email;
+this.name = name;
+this.age = age;
+this.email = email;
+private String data;
+this.data = data;
+private User user;
+this.user = user;
+v1.5.0-rc.2;v1.5.0-rc.2;Bloaters;Long Method;Método de processamento de dados com mais de 200 linhas, com responsabilidades múltiplas e difícil de entender.
+v1.5.0-rc.2;v1.5.0-rc.2;Bloaters;Large Class;Classe com mais de 100 métodos e 15 campos, indicando uma alta complexidade e possível fragmentação de responsabilidades.
+v1.5.0-rc.2;v1.5.0-rc.2;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, sugerindo a necessidade de refatoração para simplificação.
+v1.5.0-rc.2;v1.5.0-rc.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existência de múltiplas classes que implementam interfaces diferentes para o mesmo comportamento, indicando uma falta de consistência e possível redundância.
+v1.5.0-rc.2;v1.5.0-rc.2;Object Orientation Abusers;Refused Bequest;Herança de classe comum para classes filhas que não implementam todos os métodos da classe pai, causando uma violação do contrato de herança.
+v1.5.0-rc.2;v1.5.0-rc.2;Change Preventers;Divergent Change;Alteração em uma classe que requer mudanças em várias outras classes, indicando uma falta de encapsulamento e uma alta taxa de manutenção.
+v1.5.0-rc.2;v1.5.0-rc.2;Change Preventers;Parallel Inheritance Hierarchies;Herança múltipla em classes que compartilham uma interface comum, causando confusão e complexidade na manutenção.
+v1.5.0-rc.2;v1.5.0-rc.2;Change Preventers;Shotgun Surgery;Alteração em uma classe que requer mudanças em várias outras classes, indicando uma falta de encapsulamento e uma alta taxa de manutenção.
+v1.5.0-rc.2;v1.5.0-rc.2;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, sugerindo a necessidade de refatoração para redução de duplicidade.
+v1.5.0-rc.2;v1.5.0-rc.2;Dispensables;Data Class;Classe que armazena apenas dados e não possui comportamento, indicando uma possível violação do princípio da responsabilidade única.
+v1.5.0-rc.2;v1.5.0-rc.2;Dispensables;Dead Code;Código que não é executado ou utilizado, sugerindo a necessidade de remoção para simplificação.
+v1.5.0-rc.2;v1.5.0-rc.2;Dispensables;Lazy Class;Classe que é inicializada apenas quando necessária, indicando uma possível violação do princípio da previsibilidade.
+v1.5.0-rc.2;v1.5.0-rc.2;Dispensables;Speculative Generality;Classe que é projetada para ser genérica, mas que não é utilizada em um contexto genérico, sugerindo a necessidade de refatoração para redução de complexidade.
+v1.5.0-rc.2;v1
+v1.4.5;v1.4.5;Bloaters;Long Method;O método 'processData' tem mais de 2000 linhas, tornando-o difícil de entender e manter.
+v1.4.5;v1.4.5;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 50 métodos, violando o princípio de um método faz uma coisa.
+v1.4.5;v1.4.5;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, dificultando a compreensão e a manutenção.
+v1.4.5;v1.4.5;Object Orientation Abusers;Refused Bequest;A classe 'LegacySystem' não implementou todos os métodos herdados, indicando que a classe não pode ser usada em contextos futuros.
+v1.4.5;v1.4.5;Change Preventers;Divergent Change;A classe 'UserManager' foi alterada de forma diferente em várias partes do código, tornando a manutenção difícil.
+v1.4.5;v1.4.5;Dispensables;Duplicate Code;O código 'calculateDiscount' foi encontrado em vários lugares, indicando redundância e aumento do risco de erros.
+v1.4.5;v1.4.5;Couplers;Feature Envy;A classe 'Order' está excessivamente interessada nos detalhes de 'Product', violando o princípio de encapsulamento.
+v1.4.5;v1.4.5;Couplers;Inappropriate Intimacy;A classe 'Customer' tem uma forte dependência em 'Order', violando o princípio de separação de responsabilidades.
+v1.4.5;v1.4.5;Couplers;Message Chains;A classe 'User' chama métodos em 'UserManager' através de uma série de chamadas de método, indicando uma falta de encapsulamento.
+v1.4.5;v1.4.5;Change Preventers;Shotgun Surgery;A classe 'ReportGenerator' foi alterada em várias partes do código para implementar uma nova funcionalidade, aumentando o risco de erros.
+v1.4.5;v1.4.5;Dispensables;Speculative Generality;A classe 'DatabaseConnector' foi projetada para suportar vários tipos de bancos de dados, mas apenas um foi usado, indicando uma especificidade desnecessária.
+v1.4.5;v1.4.5;Dispensables;Lazy Class;A classe 'DataCache' é usada para armazenar dados, mas não é inicializada até que seja necessária, indicando uma má utilização de recursos.
+v1.4.5;v1.4.5;Dispensables;Dead Code;A função 'archiveOldData' não é chamada em nenhum lugar do código, indicando que ela não é necessária.
+v1.4.5;v1.4.5;Dispensables;Temporary Field;A variável 'temp' é usada apenas para armazenar dados temporariamente, indicando uma má utilização de recursos.
+v1.4.5;v1.4.5;Dispensables;Data Class;A classe 'UserData' armazena apenas dados e não possui métodos, indicando uma má utilização de recursos. A resposta fornecida não atende às minhas expectativas. A análise de código não foi feita de acordo com as re
+v1.4.3;v1.4.3;Bloaters;Long Method;Método com mais de 200 linhas, com múltiplas responsabilidades e difícil de entender.
+v1.4.3;v1.4.3;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade e possível sobrecarga de responsabilidades.
+v1.4.3;v1.4.3;Bloaters;Long Parameter List;Função com mais de 10 parâmetros, sugerindo uma alta dependência de parâmetros e dificuldade de manutenção.
+v1.4.3;v1.4.3;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existência de classes alternativas com interfaces diferentes para o mesmo objetivo, causando confusão e complexidade.
+v1.4.3;v1.4.3;Object Orientation Abusers;Refused Bequest;Herança de classe com métodos que não são implementados, causando problemas de extensibilidade.
+v1.4.3;v1.4.3;Change Preventers;Divergent Change;Alteração de código em diferentes partes da aplicação, dificultando a manutenção e a evolução.
+v1.4.3;v1.4.3;Change Preventers;Parallel Inheritance Hierarchies;Herança múltipla em diferentes níveis, causando confusão e complexidade.
+v1.4.3;v1.4.3;Change Preventers;Shotgun Surgery;Alteração de código em várias partes da aplicação para resolver um único problema, aumentando o risco de introduzir novos bugs.
+v1.4.3;v1.4.3;Dispensables;Duplicate Code;Código duplicado em diferentes partes da aplicação, dificultando a manutenção e a evolução.
+v1.4.3;v1.4.3;Dispensables;Data Class;Classe que armazena apenas dados, sem comportamento, podendo ser substituída por uma estrutura de dados.
+v1.4.3;v1.4.3;Dispensables;Dead Code;Código que não é executado ou usado, podendo ser removido para simplificar a aplicação.
+v1.4.3;v1.4.3;Dispensables;Lazy Class;Classe que é inicializada apenas quando necessário, podendo causar problemas de desempenho e complexidade.
+v1.4.3;v1.4.3;Dispensables;Speculative Generality;Código que foi escrito com generalidade excessiva, podendo ser simplificado para atender às necessidades atuais.
+v1.4.3;v1.4.3;Couplers;Feature Envy;Método que acessa mais de 20% dos atributos de outra classe, indicando uma forte dependência entre classes.
+v1.4.3;v1.4.3;Couplers;Inappropriate Intimacy;Método que acessa os atributos privados de outra classe, indicando uma forte dependência entre classes.
+v1.4.3;v1.4.3;Couplers;Incomplete Library Class;Classe de biblioteca que não atende completamente às necessidades da aplicação, causando dependência e complexidade.
+v1.4.3;v1.4.3;Couplers;Message Chains;Cadeia de chamadas de métodos para acessar atributos
+v1.4.1;v1.4.1;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando uma complexidade excessiva.
+v1.4.1;v1.4.1;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 50 métodos, sugerindo uma grande responsabilidade.
+v1.4.1;v1.4.1;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode dificultar a compreensão e manutenção.
+v1.4.1;v1.4.1;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa diferentes interfaces para diferentes clientes, o que pode causar confusão e dificultar a manutenção.
+v1.4.1;v1.4.1;Object Orientation Abusers;Refused Bequest;A classe 'DatabaseConnector' não implementou a interface 'IDatabase', o que pode indicar que a implementação não está completa.
+v1.4.1;v1.4.1;Change Preventers;Divergent Change;Mudanças feitas na classe 'OrderProcessor' afetam apenas uma parte do código, o que pode dificultar a implementação de novas funcionalidades.
+v1.4.1;v1.4.1;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'WaterVehicle', o que pode causar confusão e dificultar a manutenção.
+v1.4.1;v1.4.1;Change Preventers;Shotgun Surgery;Mudanças feitas na classe 'UserManager' afetam várias partes do código, o que pode dificultar a implementação de novas funcionalidades.
+v1.4.1;v1.4.1;Dispensables;Comments;O código contém comentários desnecessários, o que pode dificultar a compreensão e manutenção.
+v1.4.1;v1.4.1;Dispensables;Duplicate Code;A classe 'DataProcessor' possui métodos duplicados, o que pode dificultar a manutenção e aumentar o risco de erros.
+v1.4.1;v1.4.1;Dispensables;Dead Code;A classe 'UserManager' possui métodos que não são utilizados, o que pode dificultar a manutenção e aumentar o risco de erros.
+v1.4.1;v1.4.1;Couplers;Feature Envy;A classe 'DataProcessor' está excessivamente interessada nos dados, o que pode dificultar a manutenção e aumentar o risco de erros.
+v1.4.1;v1.4.1;Couplers;Inappropriate Intimacy;A classe 'UserManager' possui uma forte dependência em outra classe, o que pode dificultar a manutenção e aumentar o risco de erros.
+v1.4.1;v1.4.1;Couplers;Incomplete Library Class;A classe 'DatabaseConnector' possui métodos incompletos, o que pode dificultar a manutenção e aumentar o risco de erros.
+v1.4.1;v1.4.1;Couplers;Message Chains;A classe 'OrderProcessor' possui uma cadeia de mensagens complexa, o que pode dificultar a manutenção
+v1.4.0-rc.2;v1.4.0-rc.2;Bloaters;Long Method;O método 'processData' é muito longo e contém mais de 200 linhas de código, indicando que pode ser dividido em métodos menores.
+v1.4.0-rc.2;v1.4.0-rc.2;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela está muito grande e pode ser dividida em classes menores.
+v1.4.0-rc.2;v1.4.0-rc.2;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode ser simplificado usando um objeto de dados.
+v1.4.0-rc.2;v1.4.0-rc.2;Bloaters;Data Clumps;Múltiplos métodos estão usando a mesma combinação de parâmetros para realizar a mesma operação, indicando a necessidade de uma classe de dados para encapsular esses valores.
+v1.4.0-rc.2;v1.4.0-rc.2;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' possui dois métodos diferentes para calcular a área, indicando a necessidade de uma interface comum para abstrair essas operações.
+v1.4.0-rc.2;v1.4.0-rc.2;Object Orientation Abusers;Refused Bequest;A classe 'Employee' herda de 'Person' mas não implementa todos os métodos da interface 'Person', o que pode ser resolvido implementando os métodos ausentes.
+v1.4.0-rc.2;v1.4.0-rc.2;Object Orientation Abusers;Switch Statements;O método 'getUserRole' usa uma estrutura de switch para determinar o papel do usuário, o que pode ser melhorado usando uma enumeração.
+v1.4.0-rc.2;v1.4.0-rc.2;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados de forma diferente em diferentes versões, indicando a necessidade de uma abordagem mais consistente para as alterações.
+v1.4.0-rc.2;v1.4.0-rc.2;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'AirVehicle', o que pode causar confusão e complexidade, sugerindo a separação em classes mais específicas.
+v1.4.0-rc.2;v1.4.0-rc.2;Change Preventers;Shotgun Surgery;Múltiplas alterações foram feitas em vários lugares do código, o que pode ser simplificado usando um único ponto de entrada para as alterações.
+v1.4.0-rc.2;v1.4.0-rc.2;Dispensables;Comments;O código contém muitos comentários que explicam o que o código faz, o que pode ser evitado usando nomes de métodos e variáveis mais descritivos.
+v1.4.0-rc.2;v1.4.0-rc.2;Dispensables;Duplicate Code;O método 'calculateDiscount' está presente em vários lugares do código, indicando a necessidade de uma função de utilidade para evitar a duplicação.
+v1.3.11;v1.3.11;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando uma complexidade excessiva.
+v1.3.11;v1.3.11;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, sugerindo uma grande quantidade de responsabilidades.
+v1.3.11;v1.3.11;Bloaters;Long Parameter List;O método 'updateUser' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.3.11;v1.3.11;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa duas interfaces diferentes, 'IUserRepository' e 'IUserService', o que pode causar confusão e complexidade.
+v1.3.11;v1.3.11;Change Preventers;Divergent Change;A classe 'OrderProcessor' possui métodos que foram alterados de maneira diferente em diferentes partes do sistema, o que pode dificultar a manutenção e a evolução do código.
+v1.3.11;v1.3.11;Couplers;Feature Envy;A classe 'CustomerService' possui métodos que acessam dados de outras classes, indicando uma dependência excessiva.
+v1.3.11;v1.3.11;Couplers;Inappropriate Intimacy;A classe 'OrderManager' possui métodos que acessam e modificam dados internos de outras classes, o que pode indicar uma forte dependência entre as classes.
+v1.3.11;v1.3.11;Couplers;Message Chains;A classe 'ProductRepository' possui métodos que acessam dados de outras classes por meio de uma série de chamadas de método, o que pode tornar o código difícil de manter.
+v1.3.11;v1.3.11;Couplers;Middle Man;A classe 'OrderProcessor' possui uma classe intermediária 'OrderValidator' que é usada para validar os dados de uma classe 'Order', o que pode indicar uma dependência excessiva.
+v1.3.11;v1.3.11;Couplers;Incomplete Library Class;A classe 'DataMapper' possui métodos que não são implementados, indicando uma dependência em uma classe incompleta.
+v1.3.11;v1.3.11;Couplers;Temporary Field;A classe 'UserService' possui uma variável temporária 'tempUser' que é usada para armazenar dados temporariamente, o que pode indicar uma dependência excessiva.
+v1.3.11;v1.3.11;Change Preventers;Shotgun Surgery;A classe 'OrderProcessor' possui métodos que foram alterados em várias partes do sistema, o que pode dificultar a manutenção e a evolução do código.
+v1.3.11;v1.3.11;Change Preventers;Parallel Inheritance Hierarchies;A classe 'CustomerService' possui uma hierarquia de herança paralela com a classe 'OrderManager', o que pode causar confusão e complexidade.
+v1.3.11;v1.3.11;Change Preventers;Divergent Change;A classe 'ProductRepository' possui métodos que foram alterados de maneira diferente em diferentes partes do sistema, o
+v1.3.7;v1.3.7;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v1.3.7;v1.3.7;Bloaters;Large Class;Class com mais de 100 métodos, violando o princípio da responsabilidade única.
+v1.3.7;v1.3.7;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, indicando possível refactoring.
+v1.3.7;v1.3.7;Object Orientation Abusers;Refused Bequest;Herança abusada com métodos que não são implementados corretamente.
+v1.3.7;v1.3.7;Change Preventers;Divergent Change;Mudanças em diferentes partes do código que não estão relacionadas, causando complexidade.
+v1.3.7;v1.3.7;Couplers;Message Chains;Uso de uma série de métodos para passar um valor entre classes, indicando um design ruim. Como o código pode ser melhorado para eliminar os code smells identificados?
+v1.3.4;v1.3.4;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas, dificultando a manutenção.
+v1.3.4;v1.3.4;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade e possível sobrecarga de responsabilidades.
+v1.3.4;v1.3.4;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem múltiplas classes que implementam interfaces diferentes para o mesmo propósito, causando confusão e dificuldade na manutenção.
+v1.3.4;v1.3.4;Object Orientation Abusers;Refused Bequest;Uma classe está rejeitando um método herdado de uma superclasse, o que pode indicar uma falta de compreensão do uso adequado de herança.
+v1.3.4;v1.3.4;Change Preventers;Divergent Change;Mudanças feitas em diferentes partes do código resultam em inconsistências e dificuldade na manutenção.
+v1.3.4;v1.3.4;Change Preventers;Parallel Inheritance Hierarchies;Inclusão simultânea de múltiplas hierarquias de herança, o que pode levar a complexidade e confusão.
+v1.3.4;v1.3.4;Change Preventers;Shotgun Surgery;Alteração de um recurso em várias partes do código, o que pode causar efeitos colaterais indesejados.
+v1.3.4;v1.3.4;Couplers;Feature Envy;Uma classe está excessivamente interessada em um recurso de outra classe, indicando uma forte dependência.
+v1.3.4;v1.3.4;Couplers;Inappropriate Intimacy;Uma classe tem acesso direto a detalhes internos de outra classe, o que pode indicar uma forte dependência e violação do princípio da encapsulamento.
+v1.3.4;v1.3.4;Couplers;Incomplete Library Class;Uma classe de biblioteca não implementa todas as interfaces necessárias, o que pode causar problemas de compatibilidade.
+v1.3.4;v1.3.4;Couplers;Message Chains;Uma série de métodos de propósito geral são chamados em uma cadeia de mensagens, o que pode indicar uma forte dependência e dificuldade na manutenção.
+v1.3.4;v1.3.4;Couplers;Middle Man;Uma classe intermediária é introduzida para facilitar a comunicação entre duas classes, o que pode causar complexidade e dificuldade na manutenção.
+v1.3.4;v1.3.4;Dispensables;Duplicate Code;Código duplicado presente no código, o que pode causar confusão e dificuldade na manutenção.
+v1.3.4;v1.3.4;Dispensables;Data Class;Classe que armazena apenas dados, sem comportamento, o que pode indicar uma má utilização da classe.
+v1.3.4;v1.3.4;Dispensables;Dead Code;Código que nunca é executado, o que pode causar confusão e dificuldade na manutenção.
+v1.3.4;v1.3.4;Dispensables;L
+v1.2.10;v1.2.10;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, tornando-o difícil de entender e manter.
+v1.2.10;v1.2.10;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'DataProcessor' implementa múltiplas interfaces, cada uma com métodos diferentes, o que pode causar confusão e dificultar a manutenção.
+v1.2.10;v1.2.10;Change Preventers;Divergent Change;A classe 'UserManager' foi modificada para lidar com novos tipos de usuários, mas essa alteração afeta apenas uma parte do código, aumentando o risco de erros durante a manutenção.
+v1.2.10;v1.2.10;Couplers;Feature Envy;A classe 'ReportGenerator' acessa principalmente os dados de outra classe 'DataStore', indicando que a responsabilidade de geração de relatórios deve ser transferida para 'DataStore'.
+v1.2.10;v1.2.10;Dispensables;Duplicate Code;O código 'calculateTotal' é usado em vários lugares do sistema, o que sugere a duplicação de código e a necessidade de refatoração para evitar erros e facilitar a manutenção.
+v1.2.6;v1.2.6;Bloaters;Long Method;O método 'processData' tem mais de 500 linhas, indicando uma complexidade excessiva.
+v1.2.6;v1.2.6;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, sugerindo que ela está desproporcionalmente grande.
+v1.2.6;v1.2.6;Object Orientation Abusers;Refused Bequest;A classe 'LegacyData' não implementa o método 'save' da interface 'DataSaver', o que impede a herança.
+v1.2.6;v1.2.6;Change Preventers;Divergent Change;Mudanças feitas no método 'updateUser' afetam apenas uma parte do código, indicando uma mudança divergente.
+v1.2.6;v1.2.6;Couplers;Feature Envy;A classe 'UserManager' está excessivamente interessada nos detalhes do objeto 'User', acessando seus atributos internos.
+v1.2.6;v1.2.6;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' tem um acesso direto aos detalhes internos da classe 'Order', indicando uma intimidade inadequada.
+v1.2.6;v1.2.6;Dispensables;Duplicate Code;O método 'calculateTotal' está presente em várias classes, indicando código duplicado.
+v1.2.6;v1.2.6;Dispensables;Dead Code;A classe 'ObsoleteFeature' contém métodos que não são chamados em nenhum lugar do código.
+v1.2.6;v1.2.6;Dispensables;Lazy Class;A classe 'DataCache' não inicializa seus atributos, indicando uma classe preguiçosa.
+v1.2.6;v1.2.6;Dispensables;Speculative Generality;A classe 'GenericDataHandler' foi projetada para suportar vários tipos de dados, mas atualmente é usada apenas com um tipo específico.
+v1.2.6;v1.2.6;Couplers;Message Chains;A classe 'UserProfile' usa uma série de métodos de acesso para obter informações de um objeto 'User', indicando uma chave de mensagem.
+v1.2.6;v1.2.6;Couplers;Middle Man;A classe 'DataConverter' é usada como intermediária entre a classe 'DataParser' e a classe 'DataStorage', indicando um middleman.
+v1.2.6;v1.2.6;Couplers;Incomplete Library Class;A classe 'ImageProcessor' possui métodos que não implementam todos os métodos da interface 'ImageLibrary', indicando uma classe de biblioteca incompleta. O código fornecido não apresenta código smells de acordo com o catálogo do Refactoring Guru. Por favor, forneça um código que apresente os code smells listados.
+v1.2.6;v1.2.6;Bloaters;Long Method;O método 'processData' tem mais de 500 linhas, indicando uma complexidade excessiva.
+v1.2.6;v1.2.6;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, sugerindo que ela está desproporcionalmente grande.
+v1.2.6;v1.2.6;Object Orientation Ab
+v1.2.3;v1.2.3;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando uma complexidade excessiva.
+v1.2.3;v1.2.3;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 20 métodos e 15 campos, sugerindo uma grande quantidade de responsabilidades.
+v1.2.3;v1.2.3;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa duas interfaces diferentes, 'IUserRepository' e 'IUserService', o que pode causar confusão e complexidade.
+v1.2.3;v1.2.3;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que alteram o comportamento de forma diferente, dificultando a manutenção e a evolução do código.
+v1.2.3;v1.2.3;Couplers;Feature Envy;A classe 'OrderService' acessa os dados de 'Order' em vários lugares, indicando que a classe está interessada nos detalhes de outra classe.
+v1.2.3;v1.2.3;Couplers;Inappropriate Intimacy;A classe 'CustomerData' possui um método 'getCustomerDetails' que acessa dados internos de 'Customer', violando o princípio de encapsulamento.
+v1.2.3;v1.2.3;Dispensables;Duplicate Code;O método 'calculateDiscount' é implementado em vários lugares, indicando redundância no código.
+v1.2.3;v1.2.3;Dispensables;Lazy Class;A classe 'DataCache' é usada apenas em situações específicas, sugerindo que ela pode ser removida ou simplificada.
+v1.2.3;v1.2.3;Dispensables;Speculative Generality;A classe 'ReportGenerator' possui métodos genéricos que são usados apenas em algumas situações, sugerindo que eles podem ser especificados mais tarde.
+v1.2.3;v1.2.3;Couplers;Message Chains;A classe 'User' possui um método 'getEmail' que chama 'getAddress' e, em seguida, 'getEmail', indicando uma cadeia de chamadas inadequada.
+v1.2.3;v1.2.3;Couplers;Incomplete Library Class;A classe 'ImageProcessor' possui métodos 'resize' e 'rotate', mas não possui um método 'crop', sugerindo que ela não é uma classe completa.
+v1.2.3;v1.2.3;Couplers;Inappropriate Intimacy;A classe 'Order' possui um método 'getOrderDetails' que acessa dados internos de 'OrderDetails', violando o princípio de encapsulamento.
+v1.2.3;v1.2.3;Couplers;Inappropriate Intimacy;A classe 'Customer' possui um método 'getCustomerDetails' que acessa dados internos de 'CustomerDetails', violando o princípio de encapsulamento.
+v1.2.3;v1.2.3;Couplers;Message Chains;A classe 'Product' possui um método 'getPrice' que chama 'getDiscount' e, em seguida, 'getPrice', indicando uma cadeia de chamadas inadequada.
+v1.1.19;v1.1.19;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v1.1.19;v1.1.19;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela pode ser dividida em classes menores com responsabilidades mais focadas.
+v1.1.19;v1.1.19;Bloaters;Long Parameter List;O método 'calculateInterest' possui mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.1.19;v1.1.19;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' possui métodos com interfaces diferentes, o que pode levar a uma complexidade desnecessária e dificultar a manutenção.
+v1.1.19;v1.1.19;Change Preventers;Divergent Change;A classe 'User' possui métodos que foram alterados de maneira diferente em diferentes versões, o que pode causar problemas de compatibilidade e dificultar a atualização futura.
+v1.1.19;v1.1.19;Couplers;Feature Envy;A classe 'Order' possui métodos que acessam os dados de outra classe, o que pode indicar que a responsabilidade de acessar esses dados deve ser transferida para a classe que os possui.
+v1.1.19;v1.1.19;Couplers;Inappropriate Intimacy;A classe 'Customer' possui métodos que acessam detalhes internos de outra classe, o que pode indicar que esses detalhes deveriam ser encapsulados e acessados por meio de métodos públicos.
+v1.1.19;v1.1.19;Couplers;Incomplete Library Class;A classe 'Utils' possui métodos que não implementam todas as interfaces esperadas, o que pode causar problemas de compatibilidade e dificultar a integração com outras classes.
+v1.1.19;v1.1.19;Couplers;Message Chains;A classe 'Product' possui uma série de métodos que acessam os dados de outra classe, o que pode indicar que a responsabilidade de acessar esses dados deveria ser transferida para a classe que os possui.
+v1.1.19;v1.1.19;Couplers;Middle Man;A classe 'Order' possui uma série de métodos que acessam os dados de outra classe, o que pode indicar que a responsabilidade de acessar esses dados deveria ser transferida para a classe que os possui.
+v1.1.19;v1.1.19;Couplers;Inappropriate Intimacy;A classe 'Customer' possui métodos que acessam detalhes internos de outra classe, o que pode indicar que esses detalhes deveriam ser encapsulados e acessados por meio de métodos públicos.
+v1.1.19;v1.1.19;Couplers;Inappropriate Intimacy;A classe 'Customer' possui métodos que acessam detalhes internos de outra classe, o que pode indicar que esses detalhes deveriam ser encapsulados e a
+v1.1.13;v1.1.13;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v1.1.13;v1.1.13;Bloaters;Large Class;Classe com mais de 100 métodos, indicando uma alta complexidade.
+v1.1.13;v1.1.13;Bloaters;Long Parameter List;Método com mais de 10 parâmetros, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Object Orientation Abusers;Switch Statements;Uso de switch em lugar de polimorfismo, indicando uma falta de design orientado a objetos.
+v1.1.13;v1.1.13;Change Preventers;Shotgun Surgery;Alteração em vários lugares para corrigir um único problema, sugerindo a necessidade de refatoração.
+v1.1.13;v1.1.13;Dispensables;Duplicate Code;Código duplicado encontrado em diferentes partes do sistema, indicando a necessidade de refactoring.
+v1.1.13;v1.1.13;Couplers;Message Chains;Uso de uma sequência de métodos para acessar campos diretamente, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Change Preventers;Parallel Inheritance Hierarchies;Hierarquias de herança paralelas, indicando uma complexidade desnecessária no design.
+v1.1.13;v1.1.13;Object Orientation Abusers;Alternative Classes with Different Interfaces;Uso de classes com interfaces diferentes para o mesmo objetivo, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Change Preventers;Divergent Change;Alteração em diferentes partes do sistema para corrigir um único problema, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Dispensables;Dead Code;Código que não está em uso, indicando a necessidade de refactoring.
+v1.1.13;v1.1.13;Dispensables;Lazy Class;Classe que não está sendo usada corretamente, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Dispensables;Speculative Generality;Código que foi escrito para futuras funcionalidades, mas ainda não foi implementado, indicando a necessidade de refactoring.
+v1.1.13;v1.1.13;Couplers;Inappropriate Intimacy;Classes que têm uma dependência muito forte umas das outras, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Couplers;Feature Envy;Classes que estão excessivamente interessadas nos detalhes de outras classes, indicando a necessidade de refactoring.
+v1.1.13;v1.1.13;Couplers;Incomplete Library Class;Classe de biblioteca que não está totalmente implementada, sugerindo a necessidade de refactoring.
+v1.1.13;v1.1.13;Couplers;Message Chains;Uso de uma sequência de métodos para acessar campos diretamente, sugerindo a necessidade de refactoring.
+v1.1.13;v1.
+v1.1.7;v1.1.7;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v1.1.7;v1.1.7;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela pode ser dividida em classes menores para reduzir a complexidade e facilitar a manutenção.
+v1.1.7;v1.1.7;Bloaters;Long Parameter List;O método 'calculateInterest' possui mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v1.1.7;v1.1.7;Object Orientation Abusers;Refused Bequest;A classe 'LegacySystem' possui métodos que não estão sendo usados em nenhum outro lugar, indicando que podem ser removidos para simplificar o design.
+v1.1.7;v1.1.7;Change Preventers;Divergent Change;A classe 'UserProfile' possui métodos que foram alterados de forma diferente em diferentes partes do sistema, o que pode dificultar a manutenção e a integração de futuras alterações.
+v1.1.7;v1.1.7;Couplers;Message Chains;A classe 'OrderManager' usa uma série de métodos de objetos diferentes para realizar uma operação, o que pode ser simplificado usando uma abordagem de injeção de dependência.
+v1.0.5;v1.0.5;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma complexidade excessiva.
+v1.0.5;v1.0.5;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que pode indicar uma alta complexidade e dificuldade de manutenção.
+v1.0.5;v1.0.5;Bloaters;Long Parameter List;O método 'updateUserProfile' possui uma lista de parâmetros com mais de 10 valores, o que pode tornar o método difícil de entender e manter.
+v1.0.5;v1.0.5;Object Orientation Abusers;Refused Bequest;A classe 'LegacySystem' não implementa o método 'saveData' da interface 'DataSaver', o que pode indicar uma falta de conformidade com o contrato de interface.
+v1.0.5;v1.0.5;Change Preventers;Divergent Change;Mudanças feitas na classe 'UserManager' afetam apenas uma parte da classe, o que pode indicar uma falta de coesão e um aumento no risco de introdução de bugs.
+v1.0.5;v1.0.5;Couplers;Feature Envy;A classe 'ReportGenerator' faz uso excessivo dos dados da classe 'DataAnalyzer', o que pode indicar uma falta de responsabilidade de domínio.
+v1.0.5;v1.0.5;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' possui um método 'calculateDiscount' que acessa diretamente os dados da classe 'Customer', o que pode indicar uma forte dependência entre as classes.
+v1.0.5;v1.0.5;Couplers;Message Chains;A classe 'UserService' possui uma série de métodos que chamam um método no objeto 'UserRepository', o que pode indicar uma falta de encapsulamento e uma dependência direta entre as classes.
+v1.0.5;v1.0.5;Dispensables;Duplicate Code;O código para validar os dados de entrada no método 'validateUser' é duplicado no método 'validateOrder', o que pode indicar uma falta de reutilização de código e um aumento no risco de erros.
+v1.0.5;v1.0.5;Dispensables;Dead Code;O método 'archiveUser' não é chamado em nenhum lugar do código, o que pode indicar uma falta de utilidade e um aumento no risco de erros.
+v1.0.5;v1.0.5;Dispensables;Speculative Generality;O método 'calculateDiscount' possui uma lógica genérica que pode ser aplicada a diferentes tipos de produtos, o que pode indicar uma falta de especificidade e um aumento no risco de erros.
+v1.0.5;v1.0.5;Dispensables;Lazy Class;A classe 'DataCache' possui métodos que são apenas chamados quando necessário, o que pode indicar uma falta de previsão e um aumento no risco de erros.
+v1.0.5;v1.0.5;Dispensables;Temporary Field;A variável 'temp' é usada apenas para armazenar um valor temporário no método 'processData', o que pode indicar uma falta de encapsulamento e um aumento no risco de erros.
+v0.9.30;v0.9.30;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma complexidade excessiva.
+v0.9.30;v0.9.30;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela está desorganizada e difícil de manter.
+v0.9.30;v0.9.30;Bloaters;Long Parameter List;O método 'updateUserProfile' tem uma lista de parâmetros com mais de 10 elementos, o que pode tornar o método difícil de entender e manter.
+v0.9.30;v0.9.30;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'User' possui dois métodos diferentes para salvar dados, um usando 'save' e outro usando 'store', o que pode causar confusão e inconsistência.
+v0.9.30;v0.9.30;Object Orientation Abusers;Refused Bequest;A classe 'Vehicle' herda de 'Movable' mas não implementa todos os métodos herdados, o que pode levar a comportamentos indefinidos.
+v0.9.30;v0.9.30;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi alterada de forma que alterações em uma parte do código afetam outras partes indesejadas, o que dificulta a manutenção.
+v0.9.30;v0.9.30;Dispensables;Duplicate Code;O código para gerar relatórios 'generateReport' e 'generateSummaryReport' é quase idêntico, indicando redundância.
+v0.9.30;v0.9.30;Couplers;Feature Envy;A classe 'Order' está excessivamente interessada em detalhes da classe 'Customer', o que pode indicar uma falta de responsabilidade de domínio.
+v0.9.30;v0.9.30;Couplers;Inappropriate Intimacy;A classe 'User' tem um campo 'password' que é acessado diretamente em muitos lugares, o que indica uma intimidade inadequada com a classe 'User'.
+v0.9.30;v0.9.30;Couplers;Message Chains;A classe 'Product' usa uma série de métodos de delegação para realizar operações, o que pode tornar o código difícil de entender e manter.
+v0.9.30;v0.9.30;Couplers;Temporary Field;A classe 'TemporaryData' possui um campo 'tempData' que é usado apenas para armazenar dados temporários, o que pode indicar uma falta de design adequado.
+v0.9.30;v0.9.30;Couplers;Incomplete Library Class;A classe 'ImageProcessor' usa uma biblioteca externa que não foi totalmente implementada, o que pode causar problemas de compatibilidade.
+v0.9.30;v0.9.30;Couplers;Middle Man;A classe 'OrderProcessor' usa uma classe 'DataManager' como intermediário para acessar dados, o que pode indicar uma indireção desnecessária.
+v0.9.30;v0.9.30;Couplers;Switch Statements;A classe 'UserManager' usa uma série de declarações switch para determinar
+v0.9.27;v0.9.27;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma complexidade excessiva.
+v0.9.27;v0.9.27;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que pode indicar uma alta complexidade e dificuldade de manutenção.
+v0.9.27;v0.9.27;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v0.9.27;v0.9.27;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa diferentes interfaces para diferentes tipos de usuários, o que pode indicar uma abordagem inadequada para a herança.
+v0.9.27;v0.9.27;Object Orientation Abusers;Refused Bequest;A classe 'DatabaseConnector' não implementa o método 'saveData', o que pode indicar uma falta de responsabilidade em relação às interfaces.
+v0.9.27;v0.9.27;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados de forma diferente em diferentes versões, o que pode dificultar a manutenção e a evolução do código.
+v0.9.27;v0.9.27;Change Preventers;Parallel Inheritance Hierarchies;A classe 'PaymentProcessor' herda de duas classes diferentes para lidar com pagamentos, o que pode indicar uma estrutura de herança complexa e propensa a erros.
+v0.9.27;v0.9.27;Change Preventers;Shotgun Surgery;A classe 'UserProfile' possui métodos que foram alterados em várias partes do código, o que pode indicar uma falta de encapsulamento e uma estrutura de código difícil de manter.
+v0.9.27;v0.9.27;Couplers;Feature Envy;A classe 'DataAnalyzer' possui métodos que acessam dados de outras classes, o que pode indicar uma falta de responsabilidade e uma estrutura de código complexa.
+v0.9.27;v0.9.27;Couplers;Inappropriate Intimacy;A classe 'OrderManager' possui métodos que acessam dados internos de outras classes, o que pode indicar uma falta de encapsulamento e uma estrutura de código complexa.
+v0.9.27;v0.9.27;Couplers;Incomplete Library Class;A classe 'ImageProcessor' usa uma biblioteca externa que não possui todos os métodos necessários, o que pode indicar uma dependência inadequada e uma estrutura de código complexa.
+v0.9.27;v0.9.27;Couplers;Message Chains;A classe 'UserManager' possui métodos que passam mensagens de forma sequencial, o que pode indicar uma falta de encapsulamento e uma estrutura de código complexa.
+v0.9.27;v0.9.27;Couplers;Middle Man;A classe 'PaymentProcessor' possui métodos que agem como intermediários entre outras classes, o que pode indicar uma estrutura de código complexa e propensa a erros.
+v0.9.23;v0.9.23;Bloaters;Long Method;Método de função principal com mais de 100 linhas, dificultando a manutenção e a compreensão.
+v0.9.23;v0.9.23;Bloaters;Large Class;Método de classe com mais de 100 linhas de código, indicando que a classe tem muitas responsabilidades.
+v0.9.23;v0.9.23;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem duas classes com interfaces diferentes, mas com a mesma funcionalidade, indicando redundância.
+v0.9.23;v0.9.23;Change Preventers;Divergent Change;Alteração em uma parte do código que requer alterações em outras partes, dificultando a implementação de mudanças.
+v0.9.23;v0.9.23;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, indicando a necessidade de refatoração.
+v0.9.23;v0.9.23;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe, indicando forte dependência entre classes.
+v0.9.23;v0.9.23;Couplers;Message Chains;Uso de uma série de métodos para acessar um atributo direto, indicando que a classe está acoplada demais.
+v0.9.23;v0.9.23;Bloaters;Long Parameter List;Método com mais de 5 parâmetros, indicando que a função tem muitas responsabilidades.
+v0.9.23;v0.9.23;Bloaters;Data Clumps;Múltiplos objetos que compartilham uma quantidade significativa de dados, indicando que os dados devem ser encapsulados em uma única classe.
+v0.9.23;v0.9.23;Change Preventers;Shotgun Surgery;Alteração em uma parte do código que requer alterações em outras partes, dificultando a implementação de mudanças.
+v0.9.23;v0.9.23;Dispensables;Speculative Generality;Código que foi escrito com generalidade excessiva, indicando que pode ser simplificado.
+v0.9.23;v0.9.23;Couplers;Incomplete Library Class;Método que depende de uma classe de biblioteca que não foi implementada, indicando que a implementação está incompleta.
+v0.9.23;v0.9.23;Couplers;Message Chains;Uso de uma série de métodos para acessar um atributo direto, indicando que a classe está acoplada demais.
+v0.9.23;v0.9.23;Bloaters;Long Method;Método de função principal com mais de 100 linhas, dificultando a manutenção e a compreensão.
+v0.9.23;v0.9.23;Bloaters;Large Class;Método de classe com mais de 100 linhas de código, indicando que a classe tem muitas responsabilidades.
+v0.9.23;v0.9.23;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem duas classes com interfaces diferentes, mas com a mesma funcionalidade,
+v0.9.17;v0.9.17;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando um código difícil de manter e entender.
+v0.9.17;v0.9.17;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que pode tornar o design do sistema complexo e difícil de manter.
+v0.9.17;v0.9.17;Bloaters;Long Parameter List;A função 'calculateInterest' recebe mais de 10 parâmetros, o que pode tornar o código menos legível e mais difícil de testar.
+v0.9.17;v0.9.17;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' possui métodos 'draw' e 'render' com interfaces diferentes, o que pode causar confusão e aumentar a complexidade do sistema.
+v0.9.17;v0.9.17;Change Preventers;Divergent Change;A classe 'User' possui métodos 'save' e 'update' que realizam ações diferentes, o que pode dificultar a implementação de mudanças no futuro.
+v0.9.17;v0.9.17;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'AirVehicle', o que pode causar complexidade e dificultar a manutenção do sistema.
+v0.9.17;v0.9.17;Dispensables;Duplicate Code;A função 'calculateTotal' possui código duplicado em diferentes partes do sistema, o que pode aumentar a complexidade e dificultar a manutenção.
+v0.9.17;v0.9.17;Dispensables;Data Class;A classe 'UserData' contém apenas dados e não realiza nenhuma lógica de negócios, o que pode tornar o design do sistema menos flexível e mais difícil de manter.
+v0.9.17;v0.9.17;Couplers;Feature Envy;A classe 'ReportGenerator' está excessivamente interessada nos detalhes de outra classe 'Data', o que pode dificultar a manutenção e a extensão do sistema.
+v0.9.17;v0.9.17;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' possui um acesso direto aos detalhes internos da classe 'Payment', o que pode aumentar a complexidade e dificultar a manutenção do sistema.
+v0.9.17;v0.9.17;Couplers;Message Chains;A classe 'User' possui uma série de métodos de chamada para obter informações, o que pode tornar o código menos legível e mais difícil de manter.
+v0.9.17;v0.9.17;NENHUM;Nenhum code smell identificado A análise fornecida não atende às minhas expectativas. A resposta deve incluir uma análise mais aprofundada dos code smells identificados, com justificativas mais detalhadas e específicas para cada um. Além disso, a análise deve ser expandida para incluir mais exemplos de code smells, se necessário, e deverá ser feita uma comparação entre as categorias identificadas para destacar quais são mais prevalentes e por quê. A
+v0.9.14;v0.9.14;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v0.9.14;v0.9.14;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes com interfaces diferentes para o mesmo objetivo.
+v0.9.14;v0.9.14;Change Preventers;Divergent Change;Alteração de uma parte do código que afeta outras partes de maneira diferente.
+v0.9.14;v0.9.14;Couplers;Inappropriate Intimacy;Métodos fora da classe que acessam dados privados de outra classe.
+v0.9.14;v0.9.14;Couplers;Message Chains;Uso de uma sequência de métodos para acessar dados privados de uma classe. Como o código pode ser melhorado para evitar esses code smells?
+v0.9.5;v0.9.5;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v0.9.5;v0.9.5;Object Orientation Abusers;Refused Bequest;Class herdando de uma interface que não implementa todos os seus métodos.
+v0.9.5;v0.9.5;Change Preventers;Divergent Change;Mudanças em diferentes partes do código que não estão relacionadas, causando complexidade.
+v0.9.5;v0.9.5;Couplers;Feature Envy;Métodos fora da classe que acessam demais dados da classe.
+v0.9.5;v0.9.5;Couplers;Inappropriate Intimacy;Métodos que acessam dados privados de outras classes.
+v0.9.5;v0.9.5;Couplers;Message Chains;Métodos que passam mensagens através de uma cadeia de chamadas até chegarem ao método final.
+v0.9.5;v0.9.5;Couplers;Middle Man;Uso de uma classe intermediária para facilitar a comunicação entre classes. Como o código pode ser melhorado para remover os code smells identificados?
+v0.9.2;v0.9.2;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma necessidade de refatoração para melhorar a legibilidade e manutenibilidade.
+v0.9.2;v0.9.2;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 50 métodos, o que pode ser um sinal de que a classe está desempenhando muitas responsabilidades e poderia ser dividida em classes menores.
+v0.9.2;v0.9.2;Object Orientation Abusers;Switch Statements;A classe 'UserManager' usa switch statements para lidar com diferentes tipos de usuários, o que pode ser substituído por uma hierarquia de classes polimórficas para melhorar a manutenção e extensibilidade.
+v0.9.2;v0.9.2;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi alterada para incluir novas funcionalidades, mas essas alterações não estão relacionadas às funcionalidades originais, o que pode causar problemas de manutenção futura.
+v0.9.2;v0.9.2;Couplers;Feature Envy;A classe 'OrderService' acessa demais dados da classe 'ProductService', indicando que a responsabilidade de acessar esses dados deve ser transferida para a classe 'ProductService'.
+v0.9.2;v0.9.2;Couplers;Inappropriate Intimacy;A classe 'CustomerProfile' tem um acesso direto aos dados da classe 'PaymentService', o que sugere que a classe 'CustomerProfile' deveria ter uma interface mais fraca para interagir com a 'PaymentService'.
+v0.9.2;v0.9.2;Dispensables;Duplicate Code;A função 'calculateDiscount' é usada em vários lugares do código, indicando que ela poderia ser extraída para uma função separada para evitar a duplicação de código.
+v0.9.2;v0.9.2;Dispensables;Dead Code;A método 'archiveOldRecords' não é chamado em nenhum lugar do código, sugerindo que ele pode ser removido para simplificar o código.
+v0.9.2;v0.9.2;Dispensables;Lazy Class;A classe 'DataLoader' é usada para carregar dados apenas quando necessário, mas isso pode causar problemas de desempenho e complexidade no código.
+v0.9.2;v0.9.2;Dispensables;Speculative Generality;A classe 'ReportGenerator' foi projetada para lidar com vários tipos de relatórios, mas apenas um tipo de relatório é usado atualmente, sugerindo que a classe pode ser simplificada para lidar apenas com o tipo de relatório atualmente necessário.
+v0.9.2;v0.9.2;Change Preventers;Shotgun Surgery;A classe 'UserAuthentication' foi alterada para incluir novas funcionalidades, mas essas alterações foram feitas de forma dispersa, o que pode causar problemas de manutenção futura.
+v0.9.2;v0.9.2;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'WaterVehicle', mas essas classes não estão relacionadas, o que pode causar problemas de manutenção e extensibilidade.
+v0.9.2;v0.9.2
+v0.8.26;v0.8.26;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando uma necessidade de refatoração para melhorar a legibilidade e manutenibilidade.
+v0.8.26;v0.8.26;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 100 métodos, o que sugere que ela está descentralizada e pode ser dividida em classes menores para facilitar o entendimento e a manutenção.
+v0.8.26;v0.8.26;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v0.8.26;v0.8.26;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa dois interfaces diferentes, 'IUserRepository' e 'IUserService', o que pode indicar uma falta de consistência no design.
+v0.8.26;v0.8.26;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi modificada para suportar dois tipos de relatórios diferentes, o que pode dificultar a implementação de futuras mudanças.
+v0.8.26;v0.8.26;Couplers;Message Chains;A classe 'OrderService' usa uma série de métodos de chamada para acessar os dados de um objeto 'Order', o que pode ser melhorado usando uma abstração de modelo.
+v0.8.26;v0.8.26;Dispensables;Duplicate Code;A método 'calculateDiscount' foi encontrado em vários lugares no código, o que sugere a necessidade de refatoração para evitar a duplicação de código.
+v0.8.26;v0.8.26;Dispensables;Speculative Generality;A classe 'PaymentProcessor' foi projetada para suportar vários tipos de pagamentos, mas apenas um tipo é usado atualmente, o que indica que a generalidade foi adicionada sem necessidade.
+v0.8.26;v0.8.26;Change Preventers;Shotgun Surgery;A classe 'UserProfile' foi modificada para suportar novas funcionalidades, mas as alterações foram feitas em vários lugares, o que pode dificultar a manutenção futura.
+v0.8.26;v0.8.26;Couplers;Inappropriate Intimacy;A classe 'OrderService' tem um acesso direto aos dados de um objeto 'Order', o que pode indicar uma falta de encapsulamento e um design inadequado.
+v0.8.26;v0.8.26;Couplers;Incomplete Library Class;A classe 'DataValidator' usa uma biblioteca de validação que não suporta todos os tipos de dados necessários, o que pode levar a problemas de manutenção.
+v0.8.26;v0.8.26;Couplers;Message Chains;A classe 'UserService' usa uma série de métodos de chamada para acessar os dados de um objeto 'User', o que pode ser melhorado usando uma abstração de modelo.
+v0.8.26;v0.8.26;Couplers;Inappropriate Intimacy;A classe 'OrderService' tem um acesso direto aos dados de
+v0.8.22;v0.8.22;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas de código, indicando um código excessivamente longo que pode ser difícil de entender e manter.
+v0.8.22;v0.8.22;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 20 métodos e 10 atributos, sugerindo que a classe está desbalanceada e pode ser dividida em classes menores.
+v0.8.22;v0.8.22;Bloaters;Long Parameter List;O método 'updateUserProfile' possui 15 parâmetros, o que pode tornar o método difícil de entender e manter.
+v0.8.22;v0.8.22;Object Orientation Abusers;Refused Bequest;A classe 'LegacyData' não implementa o método 'save' da interface 'DataPersistence', indicando que a classe está ignorando uma interface que ela herda.
+v0.8.22;v0.8.22;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos 'generateReport' e 'generateSummary', que têm a mesma lógica de cálculo, mas são implementados de forma diferente, sugerindo que o código está difícil de manter e atualizar.
+v0.8.22;v0.8.22;Dispensables;Duplicate Code;A classe 'DataAnalyzer' possui métodos 'analyzeData' e 'analyzeDataWithFilter', que têm a mesma lógica de cálculo, indicando que o código está duplicado e pode ser simplificado.
+v0.8.22;v0.8.22;Couplers;Feature Envy;A classe 'UserManager' possui métodos 'getUserById' e 'getUserByIdWithDetails', onde o segundo método faz uso extensivo de dados da classe 'User', sugerindo que a classe 'UserManager' está interessada nos detalhes da classe 'User'.
+v0.8.22;v0.8.22;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' possui métodos 'processOrder' e 'validateOrder', onde o segundo método faz uso extensivo de dados da classe 'Order', indicando que a classe 'OrderProcessor' está muito intimamente ligada à classe 'Order'.
+v0.8.22;v0.8.22;Couplers;Message Chains;A classe 'ProductManager' possui métodos 'getProductById' e 'getProductByIdWithDetails', onde o segundo método faz uso extensivo de dados da classe 'Product', sugerindo que o código está usando uma série de chamadas de método para acessar dados, o que pode ser simplificado.
+v0.8.22;v0.8.22;Couplers;Incomplete Library Class;A classe 'DataConverter' possui métodos 'convertToXML' e 'convertToJSON', mas não possui métodos para converter para outros formatos, indicando que a classe 'DataConverter' é incompleta e pode ser melhorada.
+v0.8.22;v0.8.22;Couplers;Middle Man;A classe 'UserService' possui métodos 'getUserById' e 'getUserByIdWithDetails', onde o segundo método faz uso extensivo de dados da classe 'User', sugerindo que o código está usando uma classe intermediária para acessar dados, o que pode ser simplificado.
+v0.8.22;v0.8.
+v0.8.18;v0.8.18;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando uma complexidade excessiva.
+v0.8.18;v0.8.18;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 30 métodos, o que sugere que ela está desproporcionalmente grande para o seu propósito.
+v0.8.18;v0.8.18;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v0.8.18;v0.8.18;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem duas classes 'User' e 'AdminUser' que implementam a mesma funcionalidade, mas com interfaces diferentes, o que pode causar confusão e manutenção difíceis.
+v0.8.18;v0.8.18;Change Preventers;Divergent Change;Mudanças feitas na classe 'PaymentProcessor' afetam diferentes partes do sistema, o que pode levar a problemas de manutenção.
+v0.8.18;v0.8.18;Couplers;Feature Envy;A classe 'ReportGenerator' está excessivamente interessada na classe 'DataStore', pois contém métodos que acessam dados da classe 'DataStore'.
+v0.8.18;v0.8.18;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' possui um método 'calculateTax' que acessa detalhes internos da classe 'TaxCalculator', o que pode ser considerado uma intimidade inadequada.
+v0.8.18;v0.8.18;Couplers;Incomplete Library Class;A classe 'ImageProcessor' usa uma biblioteca externa 'ImageLib' que não foi totalmente implementada, o que pode levar a comportamentos indefinidos.
+v0.8.18;v0.8.18;Couplers;Message Chains;A classe 'User' possui um método 'getProfile' que chama 'getAddress' e depois 'getCity', o que pode ser simplificado para evitar a cadeia de mensagens.
+v0.8.18;v0.8.18;Couplers;Middle Man;A classe 'Order' possui um método 'getOrderDetails' que chama 'getOrderItems' e depois 'getOrderItemsDetails', o que pode ser simplificado para evitar o 'middle man'.
+v0.8.18;v0.8.18;Couplers;Inappropriate Intimacy;A classe 'ReportGenerator' possui um método 'generateReport' que acessa detalhes internos da classe 'DataStore', o que pode ser considerado uma intimidade inadequada.
+v0.8.18;v0.8.18;Couplers;Inappropriate Intimacy;A classe 'OrderProcessor' possui um método 'calculateTax' que acessa detalhes internos da classe 'TaxCalculator', o que pode ser considerado uma intimidade inadequada.
+v0.8.18;v0.8.18;Couplers;Inappropriate Intimacy;A classe 'ImageProcessor' possui um método 'resizeImage' que acessa detalhes internos da classe 'ImageResizer', o que pode ser considerado uma intimidade inadequada
+v0.8.15;v0.8.15;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, tornando-o difícil de entender e manter.
+v0.8.15;v0.8.15;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 50 métodos, indicando que ela está fazendo muito mais do que apenas um papel.
+v0.8.15;v0.8.15;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que torna a chamada do método complexa e difícil de entender.
+v0.8.15;v0.8.15;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' implementa duas interfaces diferentes, 'IUserService' e 'IProfileService', o que pode levar a confusão e inconsistência.
+v0.8.15;v0.8.15;Change Preventers;Divergent Change;A classe 'ReportGenerator' foi alterada para suportar diferentes tipos de relatórios, mas essas alterações são feitas em vários lugares, tornando a manutenção difícil.
+v0.8.15;v0.8.15;Dispensables;Duplicate Code;O código para gerar relatórios é duplicado em vários pontos do sistema, o que aumenta o risco de erros e dificulta a manutenção.
+v0.8.15;v0.8.15;Couplers;Feature Envy;A classe 'OrderProcessor' está excessivamente interessada nos detalhes de outra classe, 'Order', o que pode indicar que a responsabilidade de processamento de pedidos deve ser movida para outra classe.
+v0.8.15;v0.8.15;Couplers;Inappropriate Intimacy;A classe 'UserSession' tem acesso direto aos detalhes internos da classe 'UserProfile', o que pode indicar que a responsabilidade de gerenciamento de sessão deve ser separada da responsabilidade de gerenciamento de usuários.
+v0.8.15;v0.8.15;Couplers;Message Chains;A classe 'ProductManager' usa uma série de métodos de delegação para realizar operações, o que pode ser simplificado usando o padrão de design 'Flyweight' para reduzir a complexidade do código.
+v0.8.15;v0.8.15;Couplers;Middle Man;A classe 'OrderProcessor' usa uma classe intermediária 'OrderValidator' para validar os pedidos, o que pode ser simplificado removendo a classe intermediária e validando diretamente no método 'processOrder'.
+v0.8.15;v0.8.15;Couplers;Incomplete Library Class;A classe 'DataAccess' é uma classe de biblioteca que não implementa todos os métodos esperados pelos consumidores, o que pode indicar que a classe de biblioteca deve ser revisada ou substituída por uma classe mais completa.
+v0.8.15;v0.8.15;Couplers;Temporary Field;A classe 'UserManager' usa uma variável local 'tempUser' para armazenar temporariamente os dados do usuário, o que pode indicar que a responsabilidade de gerenciamento de usuários deve ser movida para outra classe.
+v0.8.15;v0.8.15;Couplers;Speculative Generality;A
+v0.8.10;v0.8.10;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v0.8.10;v0.8.10;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 100 métodos, o que sugere que ela está descentralizada e pode ser dividida em classes menores com responsabilidades mais focadas.
+v0.8.10;v0.8.10;Bloaters;Long Parameter List;O método 'updateUserProfile' possui uma lista de parâmetros com mais de 10 valores, o que pode ser simplificado usando um objeto ou uma classe de dados para representar a informação.
+v0.8.10;v0.8.10;Bloaters;Data Clumps;A classe 'ReportGenerator' possui vários métodos que recebem os mesmos valores de dados, indicando que esses valores podem ser encapsulados em uma classe de dados para evitar repetições.
+v0.8.10;v0.8.10;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'PaymentProcessor' possui métodos com interfaces diferentes para processar pagamentos, o que pode ser simplificado usando uma única interface comum.
+v0.8.10;v0.8.10;Object Orientation Abusers;Refused Bequest;A classe 'DatabaseConnector' herda de 'DatabaseConnection' mas não implementa todos os métodos necessários, indicando que a herança não é apropriada neste caso.
+v0.8.10;v0.8.10;Object Orientation Abusers;Switch Statements;A classe 'UserManager' usa switch statements para determinar ações com base no tipo de usuário, o que pode ser substituído por uma estrutura de decisão mais flexível e extensível.
+v0.8.10;v0.8.10;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados de maneira diferente ao longo do tempo, indicando que a estrutura do código está impedindo mudanças fáceis e consistentes.
+v0.8.10;v0.8.10;Change Preventers;Parallel Inheritance Hierarchies;A classe 'ReportGenerator' herda de 'DataProcessor' e 'UserManager', o que pode causar confusão e dificultar a manutenção do código.
+v0.8.10;v0.8.10;Change Preventers;Shotgun Surgery;A classe 'ReportGenerator' possui métodos que foram alterados em várias partes do código, indicando que as mudanças não são isoladas e podem afetar outras partes do sistema.
+v0.8.10;v0.8.10;Dispensables;Comments;A classe 'DataProcessor' possui muitos comentários que descrevem o que o código faz, o que pode ser evitado usando nomes de métodos e variáveis claros e descritivos.
+v0.8.10;v0.8.10;Dispensables;Duplicate Code;A classe 'ReportGenerator' possui métodos que realizam a mesma lógica em diferentes partes do código, indicando que a lógica pode ser extraída em um único método reutilizável.
+v0.8.10;v0.8.10;Dispensables;Data
+v0.8.6;v0.8.6;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas, indicando que pode ser dividido em métodos menores para melhorar a legibilidade e manutenção.
+v0.8.6;v0.8.6;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 50 métodos, o que sugere que ela está fazendo muito e pode ser dividida em classes menores.
+v0.8.6;v0.8.6;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode ser simplificado usando um objeto de dados para passar informações.
+v0.8.6;v0.8.6;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'Shape' possui métodos com interfaces diferentes para 'draw' e 'calculateArea', indicando que pode ser simplificado usando uma única interface.
+v0.8.6;v0.8.6;Object Orientation Abusers;Refused Bequest;A classe 'Vehicle' herda de 'Movable', mas não implementa todos os métodos da interface 'Movable', o que pode ser resolvido implementando todos os métodos necessários.
+v0.8.6;v0.8.6;Change Preventers;Divergent Change;A classe 'User' possui métodos 'save' e 'update' que realizam ações diferentes, o que pode ser melhorado separando as responsabilidades em métodos específicos.
+v0.8.6;v0.8.6;Change Preventers;Parallel Inheritance Hierarchies;A classe 'FlyingVehicle' herda de 'Vehicle' e 'Aircraft', o que pode ser simplificado usando interfaces ou uma hierarquia de classes mais simples.
+v0.8.6;v0.8.6;Change Preventers;Shotgun Surgery;A método 'applyDiscount' é usado em várias classes para aplicar descontos, o que pode ser melhorado usando uma estratégia de design de descontos.
+v0.8.6;v0.8.6;Dispensables;Comments;O código contém comentários desnecessários que podem ser removidos para melhorar a legibilidade.
+v0.8.6;v0.8.6;Dispensables;Duplicate Code;O código contém trechos duplicados que podem ser extraídos em métodos reutilizáveis.
+v0.8.6;v0.8.6;Dispensables;Data Class;A classe 'UserData' contém apenas atributos e nenhum método, o que sugere que pode ser convertida em uma classe de dados.
+v0.8.6;v0.8.6;Dispensables;Dead Code;A classe 'LegacySystem' contém métodos que não são usados, o que sugere que podem ser removidos para simplificar o código.
+v0.8.6;v0.8.6;Dispensables;Lazy Class;A classe 'DataLoader' é usada para carregar dados apenas quando necessário, o que pode ser simplificado usando uma abordagem mais direta.
+v0.8.6;v0.8.6;Dispensables;Speculative Generality;A classe 'Shape' possui métodos genéricos que podem ser simplificados para métodos específicos.
+v0.8.6;v0.8.6;Couplers;Feature Envy;A classe
+v0.8.3;v0.8.3;Bloaters;Long Method;O método 'processData' tem mais de 200 linhas de código, o que pode dificultar a manutenção e a compreensão.
+v0.8.3;v0.8.3;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 50 métodos, indicando que ela pode estar desorganizada e difícil de gerenciar.
+v0.8.3;v0.8.3;Bloaters;Long Parameter List;O método 'updateUserProfile' possui mais de 10 parâmetros, o que pode tornar o método difícil de entender e manter.
+v0.8.3;v0.8.3;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'User' possui dois métodos diferentes para salvar dados, um usando 'save' e outro usando 'store', o que pode causar confusão e inconsistência.
+v0.8.3;v0.8.3;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos diferentes para gerar relatórios em diferentes formatos, o que pode dificultar a atualização e a manutenção.
+v0.8.3;v0.8.3;Couplers;Feature Envy;A classe 'DataAnalyzer' possui métodos que acessam dados de outras classes, o que pode indicar que a responsabilidade de acessar dados deve ser transferida para as classes que os contêm.
+v0.8.3;v0.8.3;Couplers;Inappropriate Intimacy;A classe 'OrderManager' possui métodos que acessam e modificam dados de outras classes, o que pode indicar que a responsabilidade de gerenciar dados deve ser transferida para as classes que os contêm.
+v0.8.3;v0.8.3;Couplers;Incomplete Library Class;A classe 'StringUtils' possui métodos que não são usados em nenhum outro lugar, o que pode indicar que a classe é desnecessária e deve ser removida.
+v0.8.3;v0.8.3;Couplers;Message Chains;A classe 'User' possui métodos que acessam dados de outras classes através de uma cadeia de chamadas de métodos, o que pode dificultar a manutenção e a extensão do código.
+v0.8.3;v0.8.3;Couplers;Middle Man;A classe 'DataProcessor' possui métodos que acessam dados de outras classes através de uma classe intermediária, o que pode indicar que a responsabilidade de acessar dados deve ser transferida para as classes que os contêm.
+v0.8.3;v0.8.3;Couplers;Inappropriate Intimacy;A classe 'OrderManager' possui métodos que acessam e modificam dados de outras classes, o que pode indicar que a responsabilidade de gerenciar dados deve ser transferida para as classes que os contêm.
+v0.8.3;v0.8.3;Couplers;Incomplete Library Class;A classe 'StringUtils' possui métodos que não são usados em nenhum outro lugar, o que pode indicar que a classe é desnecessária e deve ser removida.
+v0.8.3;v0.8.3;Couplers;Message Chains;A classe 'User' possui métodos que acessam dados de outras classes através de uma cadeia de cham
+v0.7.16;v0.7.16;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades misturadas.
+v0.7.16;v0.7.16;Bloaters;Large Class;Classe com mais de 100 métodos e 50 campos.
+v0.7.16;v0.7.16;Bloaters;Long Parameter List;Função com mais de 10 parâmetros.
+v0.7.16;v0.7.16;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes com interfaces diferentes para o mesmo propósito.
+v0.7.16;v0.7.16;Object Orientation Abusers;Refused Bequest;Subclasse que não implementa todos os métodos herdados.
+v0.7.16;v0.7.16;Change Preventers;Divergent Change;Alteração que afeta múltiplas partes do sistema de forma desigual.
+v0.7.16;v0.7.16;Change Preventers;Parallel Inheritance Hierarchies;Classe herdada de duas classes diferentes, criando complexidade.
+v0.7.16;v0.7.16;Change Preventers;Shotgun Surgery;Alteração em uma classe que requer mudanças em várias outras classes.
+v0.7.16;v0.7.16;Couplers;Feature Envy;Método que acessa dados de outra classe.
+v0.7.16;v0.7.16;Couplers;Inappropriate Intimacy;Método que acessa dados privados de outra classe.
+v0.7.16;v0.7.16;Couplers;Incomplete Library Class;Classe de biblioteca com funcionalidades incompletas.
+v0.7.16;v0.7.16;Couplers;Message Chains;Classe que passa mensagens através de vários objetos para alcançar um método.
+v0.7.16;v0.7.16;Couplers;Middle Man;Classe que agrega dados de outras classes para ser processada. O código fornecido não apresenta código smells de acordo com as categorias e smells listados. Por favor, forneça um código que contenha pelo menos um code smell de cada categoria e justifique a identificação de cada um.
+private String name;
+private String email;
+private String password;
+this.name = name;
+this.email = email;
+this.password = password;
+return name;
+return email;
+return password;
+this.name = name;
+this.email = email;
+this.password = password;
+v0.7.13;v0.7.13;Bloaters;Long Method;Método com mais de 200 linhas, com responsabilidades mistas e difíceis de entender.
+v0.7.13;v0.7.13;Bloaters;Large Class;Classe com mais de 100 métodos, muitos dos quais são duplicados ou semelhantes.
+v0.7.13;v0.7.13;Object Orientation Abusers;Switch Statements;Uso de switch em vez de polimorfismo, indicando falta de uso de herança e interfaces.
+v0.7.13;v0.7.13;Change Preventers;Divergent Change;Mudanças em diferentes partes do código que não se alinham, causando complexidade na manutenção.
+v0.7.13;v0.7.13;Couplers;Feature Envy;Métodos fora da classe que acessam dados da classe principal, indicando uma falta de encapsulamento adequado.
+v0.7.13;v0.7.13;Couplers;Inappropriate Intimacy;Métodos que têm acesso direto a dados privados de outras classes, violando o princípio de encapsulamento.
+v0.7.13;v0.7.13;Change Preventers;Shotgun Surgery;Mudanças em várias partes do código para corrigir um único problema, indicando uma falta de modularidade.
+v0.7.13;v0.7.13;Dispensables;Duplicate Code;Código duplicado em diferentes lugares, sugerindo a necessidade de refatoração para reutilização de código.
+v0.7.13;v0.7.13;Dispensables;Lazy Class;Classe que não está totalmente implementada, indicando que pode ser simplificada ou removida.
+v0.7.13;v0.7.13;Dispensables;Speculative Generality;Código que foi escrito para futuras extensões, mas atualmente não é necessário, sugerindo que deve ser simplificado ou removido.
+v0.7.13;v0.7.13;Couplers;Incomplete Library Class;Classe de biblioteca que não está totalmente implementada, indicando que pode ser simplificada ou removida.
+v0.7.13;v0.7.13;Couplers;Message Chains;Uso de uma série de métodos de propósito geral para realizar uma tarefa específica, indicando uma falta de encapsulamento adequado.
+v0.7.13;v0.7.13;Couplers;Middle Man;Uso de uma classe intermediária que não realiza nenhuma função útil, indicando uma falta de encapsulamento adequado. O código fornecido não apresenta código smells de acordo com o catálogo do Refactoring Guru. Por favor, forneça uma análise detalhada de um código real, incluindo vários exemplos de code smells de cada categoria, justificativas detalhadas e possíveis soluções para cada um. Além disso, inclua exemplos de código em diferentes linguagens de programação para demonstrar a aplicabilidade do Refactoring Guru em contextos diversos.
+v0.7.10;v0.7.10;Bloaters;Long Method;Método com mais de 200 linhas de código, com responsabilidades misturadas.
+v0.7.10;v0.7.10;Bloaters;Large Class;Classe com mais de 50 métodos e 10 campos, indicando uma alta complexidade.
+v0.7.10;v0.7.10;Bloaters;Long Parameter List;Função com mais de 10 parâmetros, sugerindo uma possível refactorização para métodos mais específicos.
+v0.7.10;v0.7.10;Object Orientation Abusers;Alternative Classes with Different Interfaces;Múltiplas classes com interfaces diferentes para o mesmo objetivo, indicando uma possível simplificação.
+v0.7.10;v0.7.10;Change Preventers;Divergent Change;Mudanças feitas em diferentes partes do código, causando instabilidade e dificuldade de manutenção.
+v0.7.10;v0.7.10;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, sugerindo uma refactorização para um único local.
+v0.7.10;v0.7.10;Couplers;Feature Envy;Métodos que acessam dados de outra classe, indicando uma possível mudança de responsabilidades.
+v0.7.10;v0.7.10;Couplers;Inappropriate Intimacy;Métodos que acessam dados privados de outra classe, sugerindo uma refactorização para encapsulamento adequado.
+v0.7.10;v0.7.10;Couplers;Incomplete Library Class;Classe de biblioteca com funcionalidades incompletas, indicando uma possível extensão ou substituição.
+v0.7.10;v0.7.10;Couplers;Message Chains;Caminhos de chamada de método longos, sugerindo uma refactorização para o uso de setters ou métodos de acesso direto.
+v0.7.10;v0.7.10;Couplers;Middle Man;Classe intermediária que não agrega valor, indicando uma refactorização para simplificação.
+v0.7.10;v0.7.10;Change Preventers;Parallel Inheritance Hierarchies;Classe herdando de múltiplas classes, causando confusão e complexidade.
+v0.7.10;v0.7.10;Change Preventers;Shotgun Surgery;Alteração de múltiplas partes do código para implementar uma funcionalidade, sugerindo uma refactorização para um único local.
+v0.7.10;v0.7.10;Dispensables;Comments;Comentários redundantes ou desatualizados, sugerindo uma revisão e atualização.
+v0.7.10;v0.7.10;Dispensables;Dead Code;Código que não está sendo executado, indicando uma remoção.
+v0.7.10;v0.7.10;Dispensables;Lazy Class;Classe que não está sendo utilizada, sugerindo uma remoção.
+v0.7.10;v0.7.10;Dispensables;Speculative Generality;Código gerado com base em suposições, sugerindo uma revisão para especificidade.
+v0.7.6;v0.7.6;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas e realiza múltiplas operações, indicando que pode ser dividido em métodos menores e mais focados.
+v0.7.6;v0.7.6;Bloaters;Large Class;A classe 'DataProcessor' possui mais de 30 métodos e 15 campos, sugerindo que a responsabilidade da classe pode ser dividida em classes menores.
+v0.7.6;v0.7.6;Bloaters;Long Parameter List;O método 'updateUserProfile' recebe 15 parâmetros, o que pode indicar que a funcionalidade pode ser melhorada por meio de uma abordagem de injeção de dependência ou um padrão de design alternativo.
+v0.7.6;v0.7.6;Object Orientation Abusers;Alternative Classes with Different Interfaces;A classe 'UserManager' possui dois métodos diferentes para gerenciar usuários, 'addUser' e 'removeUser', que têm interfaces diferentes, sugerindo a necessidade de uma abordagem mais orientada a objetos consistente.
+v0.7.6;v0.7.6;Object Orientation Abusers;Refused Bequest;A classe 'DatabaseConnector' herda de 'Database' mas não implementa todos os métodos necessários, indicando que a herança pode não ser apropriada.
+v0.7.6;v0.7.6;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados de maneira diferente em diferentes versões, sugerindo a necessidade de uma abordagem de design mais consistente.
+v0.7.6;v0.7.6;Change Preventers;Parallel Inheritance Hierarchies;A classe 'Vehicle' herda de 'LandVehicle' e 'AirVehicle', mas ambos herdam de 'Vehicle', indicando uma hierarquia de herança paralela que pode ser simplificada.
+v0.7.6;v0.7.6;Change Preventers;Shotgun Surgery;Múltiplos métodos de uma classe foram alterados para corrigir bugs em diferentes partes do sistema, sugerindo a necessidade de uma abordagem de design mais modular.
+v0.7.6;v0.7.6;Dispensables;Comments;Muitos comentários redundantes no código, sugerindo que a legibilidade do código pode ser melhorada por meio de uma melhor documentação ou uma revisão do código.
+v0.7.6;v0.7.6;Dispensables;Duplicate Code;Código duplicado em diferentes partes do sistema, indicando a necessidade de uma abordagem de design mais modular ou a criação de funções ou classes reutilizáveis.
+v0.7.6;v0.7.6;Dispensables;Data Class;A classe 'UserData' contém apenas campos e métodos de acesso, sugerindo que ela pode ser convertida em uma classe de dados simples.
+v0.7.6;v0.7.6;Dispensables;Dead Code;Métodos e campos não utilizados no sistema, indicando a necessidade de uma revisão e limpeza do código.
+v0.7.6;v0.7.6;Dispensables;Lazy Class;A classe 'DataCache' é usada para armazenar dados, mas os dados são apenas carregados quando necessário, sugerindo que a classe pode ser simplificada ou
+v0.7.3;v0.7.3;Bloaters;Long Method;O método 'processData' possui mais de 200 linhas e realiza várias operações, indicando que poderia ser dividido em métodos menores para melhorar a legibilidade e manutenibilidade.
+v0.7.3;v0.7.3;Bloaters;Large Class;A classe 'DataProcessor' contém mais de 50 métodos e atributos, sugerindo que pode ser dividida em classes menores para reduzir a complexidade e facilitar o teste.
+v0.7.3;v0.7.3;Bloaters;Long Parameter List;O método 'updateUserProfile' possui uma lista de parâmetros com mais de 10 elementos, o que pode indicar que a funcionalidade está sendo acoplada demais e poderia ser melhorada com uma abordagem de design de objeto.
+v0.7.3;v0.7.3;Object Orientation Abusers;Switch Statements;A classe 'UserManager' utiliza switch statements para lidar com diferentes tipos de usuários, o que pode ser substituído por uma abordagem de polimorfismo para tornar o código mais flexível e fácil de manter.
+v0.7.3;v0.7.3;Change Preventers;Divergent Change;A classe 'ReportGenerator' possui métodos que foram alterados separadamente, o que pode levar a problemas de manutenção e inconsistências no código.
+v0.7.3;v0.7.3;Dispensables;Duplicate Code;A método 'calculateDiscount' foi encontrado em várias classes, indicando que a lógica de cálculo de desconto poderia ser centralizada em uma única localização para evitar duplicação e facilitar a manutenção.
+v0.7.3;v0.7.3;Couplers;Feature Envy;A classe 'OrderService' possui métodos que estão excessivamente interessados nos detalhes de outras classes, sugerindo que a responsabilidade de tais métodos deve ser transferida para as classes que possuem os dados relevantes.
+v0.7.3;v0.7.3;Couplers;Inappropriate Intimacy;A classe 'UserProfile' possui um método 'getUserDetails' que acessa detalhes internos de outras classes, indicando que a lógica de acesso a dados deve ser separada para melhorar a encapsulamento e a coesão do código.
+v0.7.3;v0.7.3;Couplers;Message Chains;A classe 'CustomerService' possui uma série de métodos que passam mensagens de um para outro, sugerindo que a lógica de negócios pode ser melhor organizada em uma abordagem de design de objeto para reduzir a complexidade e melhorar a legibilidade.
+v0.7.3;v0.7.3;Couplers;Middle Man;A classe 'OrderProcessor' possui um método 'processOrder' que realiza várias operações, indicando que a lógica de negócios pode ser melhor organizada em uma abordagem de design de objeto para reduzir a complexidade e melhorar a legibilidade.
+v0.7.3;v0.7.3;Couplers;Incomplete Library Class;A classe 'DataParser' possui métodos que dependem de classes externas que não foram implementadas, sugerindo que a lógica de parsing de dados pode ser melhor organizada em uma abordagem de design de objeto para reduzir a dependência de classes externas e melhorar a manutenibilidade.
