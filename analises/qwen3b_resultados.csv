@@ -1,0 +1,76 @@
+Release;DescricaoRelease;Categoria;CodeSmell;Justificativa
+v1.7.3;v1.7.3;NENHUM;NENHUM;Nenhum code smell identificado
+v1.7.0;v1.7.0;NENHUM;NENHUM;Nenhum code smell identificado
+v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Long Method;A função 'processarDados' tem mais de 20 linhas e realiza várias tarefas desnecessariamente;v1.7.0-beta.6;v1.7.0-beta.6;Bloaters;Large Class;A classe 'Usuario' contém muitos métodos e atributos, indicando que pode ser dividida em classes menores;v1.7.0-beta.6;v1.7.0-beta.6;Object Orientation Abusers;Alternative Classes with Different Interfaces;Existem duas classes 'Usuario' e 'Cliente' que têm interfaces semelhantes mas diferentes métodos específicos;v1.7.0-beta.6;v1.7.0-beta.6;Object Orientation Abusers;Refused Bequest;A classe 'Produto' não herda de uma classe base, apesar de ter métodos semelhantes à classe 'Item';v1.7.0-beta.6;v1.7.0-beta.6;Couplers;Feature Envy;A classe 'EmailService' tem acesso excessivo aos métodos da classe 'Usuario', indicando feature envy;v1.7.0-beta.6;v1.7.0-beta.6;Couplers;Message Chains;O método 'validarDados' faz chamadas sequenciais a vários métodos, formando uma cadeia de mensagens;v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Divergent Change;A classe 'Funcionario' tem métodos semelhantes à classe 'Colaborador', mas com diferenças significativas nos parâmetros;v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Parallel Inheritance Hierarchies;As classes 'Funcionario' e 'Colaborador' compartilham muitos métodos, sugerindo hierarquias de herança paralelas;v1.7.0-beta.6;v1.7.0-beta.6;Change Preventers;Shotgun Surgery;O método 'atualizarStatus' faz várias alterações em vários atributos do objeto, indicando shotgun surgery;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Comments;A linha 'if (usuario.isAtivo())' está comentada, indicando que o comentário não é necessário;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Duplicate Code;A função 'validarEmail' está duplicada na classe 'EmailService', indicando código duplicado;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Data Class;A classe 'Endereco' é uma data class, indicando que ela pode ser simplificada;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Dead Code;A variável 'idade' está declarada mas nunca utilizada, indicando código morto;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Lazy Class;A classe 'Configuracao' não implementa todos os métodos de interface, indicando que ela pode ser simplificada;v1.7.0-beta.6;v1.7.0-beta.6;Regras obrigatórias;Speculative Generality;A função 'gerarRelatorio' tem um parâmetro 'tipo' que não é utilizado, indicando genericidade especulativa;v1.7.0-beta.6;v1.7.0-beta.6;NENHUM;Nenhum code smell identificado
+v1.6.7;v1.6.7;NENHUM;NENHUM;Nenhum code smell identificado
+v1.7.0-beta.2;v1.7.0-beta.2;NENHUM;NENHUM;Nenhum code smell identificado
+v1.6.4;v1.6.4;NENHUM;NENHUM;Nenhum code smell identificado
+v1.6.2;v1.6.2;NENHUM;NENHUM;Nenhum code smell identificado
+v1.6.0-rc.4;v1.6.0-rc.4;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.11;v1.5.11;NENHUM;NENHUM;Nenhum code smell identificado
+v1.6.0-beta.6;v1.6.0-beta.6;Bloaters;Long Method;"A função 'processarDados' tem mais de 20 linhas e realiza várias tarefas, o que sugere que pode ser dividida em funções menores.";
+v1.5.9;v1.5.9;NENHUM;NENHUM;Nenhum code smell identificado
+v1.6.0-beta.2;v1.6.0-beta.2;Bloaters;Long Method;"A função 'processarDados' tem mais de 20 linhas e realiza várias tarefas, o que sugere que pode ser dividida em funções menores.";
+v1.5.7-rc.2;v1.5.7-rc.2;Bloaters;Long Method;A função 'processData' tem mais de 20 linhas e realiza várias tarefas, indicando excessão de responsabilidade.
+v1.5.6-rc.1;v1.5.6-rc.1;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.4;v1.5.4;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.4-rc.1;v1.5.4-rc.1;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.0;v1.5.0;NENHUM;NENHUM;Nenhum code smell identificado
+v1.4.10;v1.4.10;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.0-rc.5;v1.5.0-rc.5;NENHUM;NENHUM;Nenhum code smell identificado
+v1.5.0-rc.2;v1.5.0-rc.2;NENHUM;NENHUM;Nenhum code smell identificado
+v1.4.5;v1.4.5;NENHUM;NENHUM;Nenhum code smell identificado
+v1.4.3;v1.4.3;NENHUM;NENHUM;Nenhum code smell identificado
+v1.4.1;v1.4.1;NENHUM;NENHUM;Nenhum code smell identificado
+v1.4.0-rc.2;v1.4.0-rc.2;NENHUM;NENHUM;Nenhum code smell identificado
+v1.3.11;v1.3.11;Bloaters;Long Method;A função 'processData' tem mais de 20 linhas e realiza várias tarefas desnecessariamente.
+v1.3.7;v1.3.7;NENHUM;NENHUM;Nenhum code smell identificado
+v1.3.4;v1.3.4;NENHUM;NENHUM;Nenhum code smell identificado
+v1.2.10;v1.2.10;Bloaters;Long Method;A função 'processData' tem mais de 20 linhas e realiza várias tarefas desnecessariamente.
+v1.2.6;v1.2.6;NENHUM;NENHUM;Nenhum code smell identificado
+v1.2.3;v1.2.3;NENHUM;NENHUM;Nenhum code smell identificado
+v1.1.19;v1.1.19;NENHUM;NENHUM;Nenhum code smell identificado
+v1.1.13;v1.1.13;NENHUM;NENHUM;Nenhum code smell identificado
+v1.1.7;v1.1.7;NENHUM;NENHUM;Nenhum code smell identificado
+v1.0.5;v1.0.5;NENHUM;NENHUM;Nenhum code smell identificado
+v0.9.30;v0.9.30;Bloaters;Long Method;A função main possui mais de 20 linhas executando várias tarefas, indicando excessão de responsabilidade.
+v0.9.27;v0.9.27;Bloaters;Long Method;A função main tem mais de 20 linhas e contém várias operações que poderiam ser divididas em funções menores para melhorar a legibilidade.
+v0.9.23;v0.9.23;Bloaters;Long Method;A função main tem mais de 20 linhas e contém várias operações que poderiam ser divididas em métodos menores para melhorar a legibilidade.
+v0.9.17;v0.9.17;Bloaters;Long Method;O método 'processData' é muito extenso, possivelmente dividindo-o em partes menores poderia melhorar a legibilidade e a manutenção.
+v0.9.17;v0.9.17;Bloaters;Large Class;A classe 'DatabaseManager' contém muitos métodos e atributos, o que torna difícil entender seu propósito e funcionalidade.
+v0.9.17;v0.9.17;Object Orientation Abusers;Feature Envy;A classe 'Logger' tem métodos que deveriam pertencer à classe 'DatabaseManager', indicando que há uma excessiva dependência entre elas.
+v0.9.17;v0.9.17;Couplers;Inappropriate Intimacy;As classes 'User' e 'Role' compartilham muitos atributos e métodos, sugerindo uma relação de dependência excessiva e não necessária.
+v0.9.17;v0.9.17;Change Preventers;Divergent Change;A classe 'Transaction' possui métodos que podem ser aplicados a diferentes tipos de transações, o que dificulta a mudança e a manutenção.
+v0.9.17;v0.9.17;Change Preventers;Parallel Inheritance Hierarchies;As classes 'User' e 'Role' compartilham muitos métodos, sugerindo uma hierarquia de herança desnecessariamente complexa.
+v0.9.17;v0.9.17;Change Preventers;Shotgun Surgery;Muitos métodos na classe 'DatabaseManager' têm nomes genéricos e não são específicos, indicando que a classe foi modificada frequentemente sem uma estrutura clara.
+v0.9.14;v0.9.14;Bloaters;Long Method;O método 'processData' tem mais de 20 linhas e realiza várias tarefas desnecessariamente.
+v0.9.5;v0.9.5;NENHUM;NENHUM;Nenhum code smell identificado
+v0.9.2;v0.9.2;NENHUM;NENHUM;Nenhum code smell identificado
+v0.8.26;v0.8.26;Bloaters;Long Method;A função 'processData' tem mais de 20 linhas e realiza várias tarefas desnecessariamente.
+v0.8.22;v0.8.22;Bloaters;Long Method;A função main tem mais de 20 linhas e realiza várias tarefas, indicando excessão de responsabilidade.
+v0.8.18;v0.8.18;Bloaters;Long Method;A função main tem mais de 20 linhas e contém várias operações que poderiam ser divididas em métodos menores para melhorar a legibilidade.
+v0.8.15;v0.8.15;Bloaters;Long Method;A função 'processData' é muito extensa e pode ser dividida em partes menores para melhorar a legibilidade e manutenção.
+v0.8.10;v0.8.10;Bloaters;Long Method;A função 'processData' é muito extensa e pode ser dividida em partes menores para melhorar a legibilidade e a manutenção.
+v0.8.6;v0.8.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.8.3;v0.8.3;NENHUM;NENHUM;Nenhum code smell identificado
+v0.7.16;v0.7.16;Bloaters;Long Method;A função main tem mais de 20 linhas e contém várias operações que poderiam ser divididas em funções menores para melhorar a legibilidade.
+v0.7.13;v0.7.13;Bloaters;Long Method;A função main tem mais de 20 linhas e contém várias operações que poderiam ser divididas em funções menores para melhorar a legibilidade.
+v0.7.10;v0.7.10;Bloaters;Long Method;A função main tem mais de 20 linhas e realiza várias tarefas, indicando excessão de responsabilidade.
+v0.7.6;v0.7.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.7.3;v0.7.3;NENHUM;NENHUM;Nenhum code smell identificado
+v0.7.0;v0.7.0;NENHUM;NENHUM;Nenhum code smell identificado
+v0.6.11;v0.6.11;Bloaters;Long Method;A função main possui mais de 20 linhas e realiza várias tarefas, indicando excessão de responsabilidade.
+v0.6.8;v0.6.8;NENHUM;NENHUM;Nenhum code smell identificado
+v0.6.5;v0.6.5;NENHUM;NENHUM;Nenhum code smell identificado
+v0.5.9;v0.5.9;NENHUM;NENHUM;Nenhum code smell identificado
+v0.5.6;v0.5.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.5.2;v0.5.2;NENHUM;NENHUM;Nenhum code smell identificado
+v0.4.9;v0.4.9;NENHUM;NENHUM;Nenhum code smell identificado
+v0.4.6;v0.4.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.4.2;v0.4.2;NENHUM;NENHUM;Nenhum code smell identificado
+v0.3.9;v0.3.9;NENHUM;NENHUM;Nenhum code smell identificado
+v0.3.6;v0.3.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.3.2;v0.3.2;NENHUM;NENHUM;Nenhum code smell identificado
+v0.2.9;v0.2.9;NENHUM;NENHUM;Nenhum code smell identificado
+v0.2.6;v0.2.6;NENHUM;NENHUM;Nenhum code smell identificado
+v0.2.2;v0.2.2;NENHUM;NENHUM;Nenhum code smell identificado

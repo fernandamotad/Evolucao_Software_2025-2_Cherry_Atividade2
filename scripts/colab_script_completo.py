@@ -200,7 +200,7 @@ print(f"✅ Prompt carregado\n")
 MODELOS = [
     ("Qwen/Qwen2.5-0.5B-Instruct", "analises/qwen_resultados.csv"),
     ("microsoft/Phi-3-mini-4k-instruct", "analises/phi3_resultados.csv"),
-    ("HuggingFaceTB/SmolLM2-1.7B-Instruct", "analises/smollm17b_resultados.csv"),
+    ("Qwen/Qwen2.5-3B-Instruct", "analises/qwen3b_resultados.csv"),
 ]
 
 for model_name, output_file in MODELOS:
